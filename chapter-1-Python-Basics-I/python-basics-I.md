@@ -151,12 +151,7 @@ Just like grammar makes English easier to read, PEP 8 makes Python code easier f
     | Spacing After Commas | Put a space after commas | sum(1, 2, 3) | sum(1,2,3) |
     | Single Statement per Line | Use one statement per line | x = 1; y = 2 (preferred to split in two lines) | x = 1; y = 2 (not recommended in practice) |
 
-### 6. 
-
-
-
-
-### 7. Pep 8 Vs Nonpep 8 Examples
+### 6. Pep 8 Vs Nonpep 8 Examples
 #### The following code in Python gives example of use of PEP 8 versus non-PEP 8 for:-
 *   Variables
   
@@ -247,6 +242,30 @@ def square(n): return n*n #function to calc square
 
 
 ```
+
+
+### 7. Table: Identifiers vs Variables
+
+    
+| Feature | Identifier | Variable |
+| --- | --- | --- |
+| **Definition** | A name used to identify something in Python | A memory location that stores a value |
+| **What it represents** | Can represent variables, functions, classes, modules, etc. | Only represents data stored in memory |
+| **Creation **| Created when you write a name (e.g., myFunc) | Created only after assignment (e.g., x = 10) |
+| **Has value?** | No | Yes |
+| **Has type?** | No | Yes (type of stored value) |
+| **Has scope?** | Depends on what it names | Yes — local, global, class-level |
+| **Example** | sum, my_list, print, Car | x = 5, name = "Anurag" |
+| **Error if missing?** | Undefined identifier → NameError | Same, because variable name is an identifier |
+| **Used for** | Naming program components | Storing and manipulating data |
+    
+
+
+
+
+
+
+### 8. 
 
 
 ### New addition below this
