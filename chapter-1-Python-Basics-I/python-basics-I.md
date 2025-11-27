@@ -111,9 +111,9 @@ If you as a beginner are unable to follow/ understand some of the points, don’
 
 
 
-### 3. What are PEP and PEP 8 in Python? (Simple Explanation)
+### 4. What are PEP and PEP 8 in Python? (Simple Explanation)
 
-#### 3.1 PEP = Python Enhancement Proposal
+#### 4.1 PEP = Python Enhancement Proposal
 
 A **PEP is a document** that explains:
 
@@ -134,7 +134,7 @@ Imagine a school where teachers write proposals to improve rules:
 
 Python developers do the same → they write **PEPs** to propose improvements.
 
-#### 3.2 What is PEP 8
+#### 4.2 What is PEP 8
 
 **PEP 8 = The official Style Guide for Python code**
 
@@ -149,7 +149,7 @@ PEP 8 tells Python programmers:
 **Think of PEP 8 like English grammar rules but for Python.**  
 Just like grammar makes English easier to read, PEP 8 makes Python code easier for everyone to understand.
 
-#### 3.3  PEP  8
+#### 4.3  PEP  8
 
 *   | PEP 8 Topic | What It Means | PEP 8 Example (Correct) | Non-PEP 8 Example (Incorrect) |
     | --- | --- | --- | --- |
@@ -172,7 +172,7 @@ Just like grammar makes English easier to read, PEP 8 makes Python code easier f
     | Spacing After Commas | Put a space after commas | sum(1, 2, 3) | sum(1,2,3) |
     | Single Statement per Line | Use one statement per line | x = 1; y = 2 (preferred to split in two lines) | x = 1; y = 2 (not recommended in practice) |
 
-#### 3.4 Pep 8 Vs Non-pep 8 Examples
+#### 4.4 Pep 8 Vs Non-pep 8 Examples
 ##### The following code in Python gives example of use of PEP 8 versus non-PEP 8 for:-
 *   Variables
   
@@ -261,11 +261,21 @@ def square(n):
 def square(n): return n*n #function to calc square
 
 
+# -------------------------------
+# Private / Internal Names — begin with underscore (Not enforced by Python, but recommended.)
+# -------------------------------
+
+# PEP 8 style
+_calculate_internal_grades()  # This function is to be used internally
+
+# Non-PEP 8 style
+calculate_internal_grades()  # This is an internal function/ private to the script. Should start with underscore
+
 
 ```
 
 
-### 7. Table: Identifiers vs Variables
+### 5. Table: Identifiers vs Variables
 
     
 | Feature | Identifier | Variable |
@@ -286,7 +296,7 @@ def square(n): return n*n #function to calc square
 
 
 
-### 8. 
+### 6. 
 
 
 ### New addition below this
