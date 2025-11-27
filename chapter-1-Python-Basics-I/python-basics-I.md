@@ -189,7 +189,7 @@ Just like grammar makes English easier to read, PEP 8 makes Python code easier f
 # PEP 8 vs Non-PEP 8 Python Code Examples
 
 # -------------------------------
-# Variables
+# Variables:- Use snake_case (lowercase_with_underscores)
 # -------------------------------
 
 # PEP 8 style
@@ -198,13 +198,13 @@ total_score = 95
 MAX_LIMIT = 100
 
 # Non-PEP 8 style
-StudentAge=20
-totalScore=95
+StudentAge=20  # Avoid capital letters in variable names
+totalScore=95  #Not following convention. Use underscores (_) instead
 maxlimit=100  # variable names not following conventions
 
 
 # -------------------------------
-# Functions
+# Functions:- Also use snake_case
 # -------------------------------
 
 # PEP 8 style
@@ -214,6 +214,28 @@ def calculate_average(score1, score2, score3):
 
 # Non-PEP 8 style
 def CalculateAverage(score1,score2,score3): total=score1+score2+score3;return total/3
+
+# -------------------------------
+# Class Names:- use PascalCase
+# -------------------------------
+# PEP 8 style
+StudentRecord
+AttendenceManager
+
+# Non-PEP 8 style
+studentRecord  # Class name should start with capital letter by convention
+Attendence_Manager  # Avoid underscores in class names if possible
+
+# -------------------------------
+# Constants:- Use all UPPERCASE. Use Underscores (_) to seperate words
+# -------------------------------
+# PEP 8 style
+MAX_MARKS = 100
+
+# Non-PEP 8 style
+max_marks = 100  # Avoid
+
+
 
 
 # -------------------------------
