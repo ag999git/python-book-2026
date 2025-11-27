@@ -87,12 +87,33 @@ Comparison:-
 If you as a beginner are unable to follow/ understand some of the points, don’t worry. They will become clear to you as you progress.
 
 
+### 3. Good Rules for Writing Identifiers in Python. Follow the basic legal rules
+    
+    These rules are required by Python itself:-
+    
+    1.  Use letters (A–Z, a–z), digits (0–9), and underscores (_)  
+        Example: total_marks, value2, Student_Name
+        
+    2.  Identifier cannot start with a digit  
+        1value is wrong, so is 2value
+        
+    3.  value1 is OK
+        
+    4.  Keywords cannot be identifiers  
+        Examples you _cannot_ use:  
+        for, while, print, break, class etc.
+        
+    5.  No special symbols  
+        Cannot use-> age@school, first-name, price$
+        
+    6.  Python is case-sensitive  
+        student ≠ Student ≠ STUDENT
 
 
 
-### 3. What is PEP in Python? (Simple Explanation)
+### 3. What are PEP and PEP 8 in Python? (Simple Explanation)
 
-**PEP = Python Enhancement Proposal**
+#### 3.1 PEP = Python Enhancement Proposal
 
 A **PEP is a document** that explains:
 
@@ -113,7 +134,7 @@ Imagine a school where teachers write proposals to improve rules:
 
 Python developers do the same → they write **PEPs** to propose improvements.
 
-### 4. What is PEP 8
+#### 3.2 What is PEP 8
 
 **PEP 8 = The official Style Guide for Python code**
 
@@ -128,7 +149,7 @@ PEP 8 tells Python programmers:
 **Think of PEP 8 like English grammar rules but for Python.**  
 Just like grammar makes English easier to read, PEP 8 makes Python code easier for everyone to understand.
 
-### 5.  PEP  8
+#### 3.3  PEP  8
 
 *   | PEP 8 Topic | What It Means | PEP 8 Example (Correct) | Non-PEP 8 Example (Incorrect) |
     | --- | --- | --- | --- |
@@ -151,8 +172,8 @@ Just like grammar makes English easier to read, PEP 8 makes Python code easier f
     | Spacing After Commas | Put a space after commas | sum(1, 2, 3) | sum(1,2,3) |
     | Single Statement per Line | Use one statement per line | x = 1; y = 2 (preferred to split in two lines) | x = 1; y = 2 (not recommended in practice) |
 
-### 6. Pep 8 Vs Nonpep 8 Examples
-#### The following code in Python gives example of use of PEP 8 versus non-PEP 8 for:-
+#### 3.4 Pep 8 Vs Non-pep 8 Examples
+##### The following code in Python gives example of use of PEP 8 versus non-PEP 8 for:-
 *   Variables
   
 *   Functions
