@@ -135,6 +135,7 @@ Imagine a school where teachers write proposals to improve rules:
 Python developers do the same → they write **PEPs** to propose improvements.
 
 #### 4.2 What is PEP 8
+You can check out details of PEP 8 [here](https://peps.python.org/pep-0008/)
 
 **PEP 8 = The official Style Guide for Python code**
 
@@ -159,7 +160,7 @@ Just like grammar makes English easier to read, PEP 8 makes Python code easier f
     | Blank Lines | Use blank lines to separate sections | Two blank lines before class or function | No blank lines between sections |
     | Imports | Keep imports at the top, one per line | import os <br> import sys | import os, sys |
     | Import Order | Standard library → Third-party → Local | import os # Standard library <br> import numpy # Third party  <br>  import mymodule # Local | Random or mixed ordering |
-    | Naming Conventions | Use snake_case, PascalCase, UPPER_CASE | Variable: total_amount,Class: BankAccount, Constant: MAX_SIZE | TotalAmount, bank_account, maxsize |
+    | Naming Conventions | For variable use snake_case, <br> For  Class name use PascalCase, <br> For Constant use UPPER_CASE | Variable: total_amount, <br> Class: BankAccount, <br> Constant: MAX_SIZE | TotalAmount, bank_account, maxsize |
     | Whitespace Rules | Avoid unnecessary spaces | a = b + c | a=b+c or a = b + c |
     | Comments | Write clear comments | # Calculate total price | #calc price <br> or obvious comments like <br> # increment i |
     | Docstrings | Use triple quotes to document functions | """Returns sum of two numbers.""" | Using # comments instead of docstrings |
@@ -170,7 +171,7 @@ Just like grammar makes English easier to read, PEP 8 makes Python code easier f
     | Class Names | Use PascalCase | CarModel | carmodel, car_model, carModel |
     | Constant Names | Use UPPER_CASE | MAX_SPEED = 120 | maxspeed = 120 |
     | Spacing After Commas | Put a space after commas | sum(1, 2, 3) | sum(1,2,3) |
-    | Single Statement per Line | Use one statement per line | x = 1; y = 2 (preferred to split in two lines) | x = 1; y = 2 (not recommended in practice) |
+    | Single Statement per Line | Use one statement per line | x = 1; <br> y = 2 (preferred to split in two lines) | x = 1; y = 2 (not recommended in practice) |
 
 #### 4.4 Pep 8 Vs Non-pep 8 Examples
 ##### The following code in Python gives example of use of PEP 8 versus non-PEP 8 for:-
