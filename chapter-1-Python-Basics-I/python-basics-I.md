@@ -1,7 +1,11 @@
 
 
 ### 1. Python Keywords — Meaning, Code Example, Real-Life Analogy
-
+The following table has 4 columns. 
+* The first column gives the Python keyword.
+* The second column gives Meaning/ Simple explanation for that keyword.
+* The third column gives an Example sentence (Code) for that keyword.
+* The fourth column gives a Real-life Example/ Analogy for that keyword.
 
 
 | Keyword   | Meaning / Simple Explanation | Example Sentence (Code) | Real-Life Example / Analogy |
@@ -44,7 +48,7 @@
 
 
 
-### 2            Point-wise Comparison between Hash (#) and triple quotes (''' or """)
+### 2. Point-wise Comparison between Hash (#) and triple quotes (''' or """)
 
 **1\. Hash (#) — Single-Line Comments**
 
@@ -86,7 +90,170 @@ If you as a beginner are unable to follow/ understand some of the points, don’
 
 
 
-### New adition below this
+### 3. What is PEP in Python? (Simple Explanation)
+
+**PEP = Python Enhancement Proposal**
+
+A **PEP is a document** that explains:
+
+*   **new features** to be added to Python
+*   **how** Python should work
+*   **guidelines** and **best practices** for writing Python code
+*   **changes** or **improvements** to the language
+
+**Think of PEPs like a rulebook + suggestion box**  
+They help Python stay organized, consistent, and easy to develop.
+
+**Simple example (analogy):**
+
+Imagine a school where teachers write proposals to improve rules:
+
+*   "Let’s add a computer lab."
+*   "Let’s change the uniform color."
+
+Python developers do the same → they write **PEPs** to propose improvements.
+
+### 4. What is PEP 8
+
+**PEP 8 = The official Style Guide for Python code**
+
+PEP 8 tells Python programmers:
+
+*   how to **format** their code
+*   how to **name** variables, functions, and classes
+*   how many spaces to use
+*   where to put blank lines
+*   how to write code that is clean, readable, and consistent
+
+**Think of PEP 8 like English grammar rules but for Python.**  
+Just like grammar makes English easier to read, PEP 8 makes Python code easier for everyone to understand.
+
+### 5.  PEP  8
+
+*   | PEP 8 Topic | What It Means | PEP 8 Example (Correct) | Non-PEP 8 Example (Incorrect) |
+    | --- | --- | --- | --- |
+    | Indentation | Use 4 spaces per indentation level | if x > 5:    print(x) | if x > 5:print(x) (with incorrect spacing or tabs in actual code) |
+    | Tabs vs Spaces | Prefer spaces over tabs | if x > 5:    print(x) | if x > 5:    print(x) (using tab character) |
+    | Maximum Line Length | Keep lines under 79 characters | # Short comment line | # Very long comment line that exceeds 79 characters and is hard to read |
+    | Blank Lines | Use blank lines to separate sections | Two blank lines before class or function | No blank lines between sections |
+    | Imports | Keep imports at the top, one per line | import os <br> import sys | import os, sys |
+    | Import Order | Standard library → Third-party → Local | import os # Standard library <br> import numpy # Third party  <br>  import mymodule # Local | Random or mixed ordering |
+    | Naming Conventions | Use snake_case, PascalCase, UPPER_CASE | Variable: total_amount,Class: BankAccount, Constant: MAX_SIZE | TotalAmount, bank_account, maxsize |
+    | Whitespace Rules | Avoid unnecessary spaces | a = b + c | a=b+c or a = b + c |
+    | Comments | Write clear comments | # Calculate total price | #calc price <br> or obvious comments like <br> # increment i |
+    | Docstrings | Use triple quotes to document functions | """Returns sum of two numbers.""" | Using # comments instead of docstrings |
+    | Code Layout | Keep code clean and structured | Organised, readable code | Messy, inconsistent layout |
+    | Boolean Comparisons | Use direct checks | if is_ready: | if is_ready == True: |
+    | Compare with None using is/is not | Follow Pythonic way | if x is None: | if x == None: |
+    | Function & Variable Names | Use lowercase_with_underscores | get_value(), student_age | GetValue(), StudentAge, studentAge |
+    | Class Names | Use PascalCase | CarModel | carmodel, car_model, carModel |
+    | Constant Names | Use UPPER_CASE | MAX_SPEED = 120 | maxspeed = 120 |
+    | Spacing After Commas | Put a space after commas | sum(1, 2, 3) | sum(1,2,3) |
+    | Single Statement per Line | Use one statement per line | x = 1; y = 2 (preferred to split in two lines) | x = 1; y = 2 (not recommended in practice) |
+
+### 6. 
+
+
+
+
+### 7. Pep 8 Vs Nonpep 8 Examples
+#### The following code in Python gives example of use of PEP 8 versus non-PEP 8 for:-
+*   Variables
+  
+*   Functions
+    
+*   Loops
+    
+*   Conditionals
+    
+*   Comments
+
+```python
+
+# PEP 8 vs Non-PEP 8 Python Code Examples
+
+# -------------------------------
+# Variables
+# -------------------------------
+
+# PEP 8 style
+student_age = 20
+total_score = 95
+MAX_LIMIT = 100
+
+# Non-PEP 8 style
+StudentAge=20
+totalScore=95
+maxlimit=100  # variable names not following conventions
+
+
+# -------------------------------
+# Functions
+# -------------------------------
+
+# PEP 8 style
+def calculate_average(score1, score2, score3):
+    total = score1 + score2 + score3
+    return total / 3
+
+# Non-PEP 8 style
+def CalculateAverage(score1,score2,score3): total=score1+score2+score3;return total/3
+
+
+# -------------------------------
+# Loops
+# -------------------------------
+
+# PEP 8 style
+for i in range(5):
+    print(i)
+
+# Non-PEP 8 style
+for i in range(5): print(i)  # multiple statements in single line
+
+
+# -------------------------------
+# Conditionals
+# -------------------------------
+
+# PEP 8 style
+x = 10
+if x > 5:
+    print("x is greater than 5")
+elif x == 5:
+    print("x is equal to 5")
+else:
+    print("x is less than 5")
+
+# Non-PEP 8 style
+x=10
+if x>5: print("x>5")
+elif x==5: print("x==5")
+else: print("x<5")
+
+
+# -------------------------------
+# Comments
+# -------------------------------
+
+# PEP 8 style
+# This function calculates the square of a number
+def square(n):
+    return n * n
+
+# Non-PEP 8 style
+def square(n): return n*n #function to calc square
+
+
+
+```
+
+
+### New addition below this
+
+
+
+
 
 
 
