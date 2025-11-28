@@ -395,7 +395,86 @@ Not recommended for advanced use, but beginners like it.
 
 ### test
 
+  
+### 8 Common Beginner Errors + Quick Fixes
 
+These are the most common problems Indian beginners face on Windows.
+ 
+
+#### 8.1 ERROR 1: "python is not recognized"
+
+**Cause:** Python was not added to PATH.
+
+**Fix:-** Option A — Reinstall Python → select:
+
+Fix:- Option B:- **Add Python to PATH**
+
+To do so manually:
+  
+2.  Search "Edit system environment variables"
+  
+4.  Click **Environment Variables**
+  
+6.  Under **Path**, add:
+
+`C:\Users\<YourName>\AppData\Local\Programs\Python\Python3x\`
+
+and
+
+`C:\Users\<YourName>\AppData\Local\Programs\Python\Python3x\Scripts\`
+
+
+  
+
+#### 8.2 ERROR 2: VS Code shows "Select Python Interpreter"
+
+**Fix:-** Bottom-left → click where it says: Python: <version>. Pick correct interpreter:
+
+Example:
+
+`Python 3.12.0  (C:\Users\YourName\AppData\...)`
+
+#### 8.3 ERROR 3: 'pip' not working
+
+Run:
+
+`python -m pip install <package>`
+
+  
+
+Example:
+
+`python -m pip install requests`
+
+  
+
+#### 8.4 ERROR 4: Running the wrong file
+
+Beginners often write code in one file but run another.
+
+**Fix:-** Always run:
+
+`python <your current file>.py`
+
+#### 8.5 ERROR 5: VS Code Terminal opens PowerShell
+
+Sometimes PowerShell causes execution issues.
+
+**Fix (switch to Command Prompt):**
+
+`VS Code → Terminal → New Terminal → click dropdown → select: Command Prompt`
+
+#### 8.6 ERROR 6: Accidentally created a workspace file (.code-workspace)
+
+Harmless. Just close and reopen folder.
+
+#### 8.7 ERROR 7: File saved with wrong extension
+
+Beginners sometimes do:- `main.py.txt`
+
+**Fix:-** Save as:
+
+`main.py`
 
 
 
