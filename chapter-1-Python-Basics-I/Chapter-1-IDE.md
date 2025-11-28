@@ -29,18 +29,46 @@
 
 
 
+```mermaid
+
+
+flowchart TD
+
+A[Start Debugging] --> B[Open Code in Editor]
+B --> C[Set Breakpoints]
+C --> D{Run with Debugger?}
+
+D -->|Yes| E[Debugger Starts]
+D -->|No| F[Press F5 or Start Debug]
+
+F --> E
+
+E --> G{Breakpoint Hit?}
+G -->|Yes| H[Inspect Variables]
+G -->|No| I[Continue Execution]
+
+H --> J{Is Bug Found?}
+I --> J
+
+J -->|Yes| K[Fix Code]
+J -->|No| L[Add More Breakpoints or Logs]
+
+L --> D
+
+K --> M[Test Fix]
+M --> N{Working Correctly?}
+
+N -->|Yes| O[End Debugging]
+N -->|No| L
+
+
+
+
+```
+
 
 
 ### Next below this
-
-
-
-
-
-
-
-
-
 
 
 
