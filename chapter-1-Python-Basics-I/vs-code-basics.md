@@ -198,7 +198,210 @@ Run code with one click
 
 
 
-### TEST
+
+
+  
+
+### 5 Python workflow in VS Code
+
+#### A Beginner’s VS Code + Python Workflow (Step-by-Step)
+
+
+This is the simplest workflow for complete beginners.
+
+  
+
+#### 5.1 Step 1: Install Python
+
+Download from:- https://www.python.org/downloads/
+
+During installation, tick this box:
+
+✔ **Add Python to PATH** (very important)
+
+#### 5.2 Step 2: Install VS Code
+
+
+(You already have the installation steps earlier.)
+
+#### 5.3 Step 3: Install Python extension in VS Code
+
+
+*   Open VS Code → Left toolbar → Extensions icon (square) →
+
+*   Search for Python
+*   Install the official Microsoft extension.
+
+#### 5.4 Step 4: Create a folder for your project
+
+
+For example:
+
+`D:\\Python\_Projects\\MyFirstProject`
+
+This folder will hold _all_ your code files.
+
+
+#### 5.5 Step 5: Open the folder in VS Code
+
+
+VS Code → **File → Open Folder** → Select your folder.
+
+This is important because VS Code needs a **workspace folder**.
+
+
+#### 5.6 Step 6: Create a Python file
+
+
+In Explorer:
+
+➡ Click **New File**  
+Name it:- `main.py`
+
+  
+
+#### 5.7 Step 7: Write your code
+
+
+Example:
+
+`print("Hello World!")`
+
+
+#### 5.8 Step 8: Open the VS Code Terminal
+
+
+Shortcut:
+
+~~~
+Ctrl + `
+~~~
+
+This opens a terminal panel at the bottom.
+
+
+
+#### 5.9 Step 9: Run your Python script
+
+
+Type:- `python main.py`
+
+Press Enter.
+
+You will see:
+
+`Hello World!`
+
+
+That’s it — you completed the basic workflow!
+
+  
+
+### 6. How to Create a Python Project (Beginner Steps)
+
+Here are the recommended steps for beginners.
+
+#### 6.1 Step 1: Create a folder
+
+
+
+Example:
+
+`C:\Python\My_App`
+
+#### 6.2 Step 2: Add subfolders (optional but good practice)
+
+```python
+My_App/  
+    ├── main.py
+    ├── helper\_functions.py    
+    └── data/
+```
+
+Note that every project having multiple files has to have an entry point. By convention, though not required, the entry point is often named main.py. Why Do We Use It?
+
+1.                 The name `main.py` serves a clear purpose for both humans and tools.
+
+2.                 Identifies the Entry Point: It immediately signals to anyone reading the project (another developer, a user, or even your future self) that this file contains the primary execution logic.
+
+3.                 Facilitates Command Line Execution: When you run a project from the command line, you must specify which file to execute. Using a consistent name like main.py makes running the application straightforward: python main.py.
+
+4.                 Project Structure and Packaging: When you package a complex Python application or library (e.g., using setuptools), you often need to define an "entry point" script. Naming your core script main.py keeps the internal project logic clean and predictable.
+
+#### 6.3 Step 3: Open the folder in VS Code
+
+
+`File → Open Folder → Select My_App`
+
+#### 6.4 Step 4: Add Python files
+
+
+Examples:
+
+*  ` main.py` → main program
+*   `helper_functions.py` → reusable functions
+*   `config.py` → any settings
+
+#### 6.5 Step 5: Install required libraries (optional)
+
+
+`Terminal → run:`
+
+`pip install requests`
+
+`pip install numpy`
+
+
+
+### 7 How to Run Python Scripts in VS Code**
+
+There are **3 beginner methods**:
+
+#### 7.1 Method 1: Using Terminal (most recommended)
+
+Open terminal:
+
+~~~python
+Ctrl + `
+
+~~~
+
+Run:
+
+`python main.py`
+
+✔ Works always  
+✔ Most reliable  
+✔ Teaches real-world workflow
+
+#### 7.2 Method 2: Using the Run Button (triangle icon)
+
+In a Python file, VS Code may show a **Run Python File** button on top.
+
+Click it → Output appears in **TERMINAL**.
+
+  
+
+#### 7.3 Method 3: Using Code Runner Extension (optional)
+
+Install **Code Runner** → A ▶ icon appears.
+
+Run code with one click.
+
+Not recommended for advanced use, but beginners like it.
+
+
+
+
+### test
+
+
+
+
+
+
+
+### test
 
 
 
