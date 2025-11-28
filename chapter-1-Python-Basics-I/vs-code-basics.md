@@ -43,8 +43,6 @@ Click Next.
     
 #### 1.3.4 Step 4: Additional tasks — VERY IMPORTANT
     
-  
-    
 You will see checkboxes.
     
 Tick these:
@@ -58,14 +56,64 @@ Click Next.
     
 #### 1.3.5 Step 5: Install
     
-  
-    
 Click Install and wait.
     
 #### 1.3.6 Step 6: Launch
-    
 
 Tick "Launch Visual Studio Code" → Finish.
+
+
+### 2.1 First-time Setup for Beginners
+When VS Code launches:
+    
+#### 2.1.1 You may see:
+    
+*   “Do you trust this author?” → Click **Yes**
+*   “Would you like to install recommended extensions?” → Optional
+  VS Code opens with a **welcome page** that includes:
+    *   A "Get Started" guide
+    *   Themes (light/dark)
+    *   Buttons to create/open files
+    
+#### 2.2.2 Understanding the VS Code Interface (Beginner-Friendly)
+    
+Below is the simplest explanation of each part:
+    
+#### 2.2.3 A. Activity Bar (left side icons)
+    
+This vertical bar has 5–6 icons. The **Activity Bar** is the thin bar on the far left that lets you switch between different views within the **Side Bar**. The icons typically found here (from top to bottom) are:-
+
+
+
+
+
+
+
+## TEST
+
+*   # 
+    
+      
+    
+
+
+
+
+
+## TEST
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
