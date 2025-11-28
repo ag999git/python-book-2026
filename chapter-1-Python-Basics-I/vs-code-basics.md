@@ -391,10 +391,6 @@ Run code with one click.
 Not recommended for advanced use, but beginners like it.
 
 
-
-
-### test
-
   
 ### 8 Common Beginner Errors + Quick Fixes
 
@@ -481,6 +477,201 @@ Beginners sometimes do:- `main.py.txt`
 
 
 ### test
+
+### 9 Debug
+
+#### 9.1 Debugging Python Code in VS Code (Beginner Guide)**
+
+Debugging means:  
+✔ finding mistakes  
+✔ stopping the program at certain points  
+✔ checking variable values  
+✔ running line-by-line
+
+#### 9.2 Make sure Python extension is installed
+
+Left toolbar → Extensions → search for Python
+
+Install the **Microsoft Python extension**.
+
+#### 9.2 Create a small sample file to debug
+
+Example file:- `debug_example.py`
+
+```python
+def add(x, y):
+    result = x + y
+    return result
+a = 10
+b = 5
+total = add(a, b)
+print("The total is:->", total)
+
+
+```
+
+#### 9.3 Set a BREAKPOINT
+
+A **breakpoint** stops your program temporarily.
+
+How to set:- (a) Click on the **left margin** next to the line number. (b) You will see a **red dot** • (c) Clicking on the red dot adds a breakpoint
+
+#### 9.4 Start debugging
+
+Go to the left toolbar → Click the **Run & Debug icon** (a play button with a bug).
+
+OR press:- F5
+
+##### First time only:
+
+You will see:-Select a debug configuration
+
+Choose:- Python: Current File
+
+#### 9.5 Program stops at the breakpoint
+
+Now the program pauses on the red dot.
+
+You can now inspect everything.
+
+#### 9.6 Debugger Tools You Will See
+
+When stopped at a breakpoint, a debug toolbar appears at the top:
+
+| Button | Meaning |
+| --- | --- |
+| ▶ Continue | Run normally until next breakpoint |
+| ↷ Step Over | Run next line (skip inside functions) |
+| ↳ Step Into | Go inside function line-by-line |
+| ↺ Step Out | Finish current function and return |
+
+#### 9.7 Watch variable values
+
+When you debug code, sometimes you want to keep an eye on certain variables without constantly printing them or searching for them in the call stack.  
+The **Watch** panel lets you do exactly that.
+
+##### 9.7.1 Where they appear
+
+While debugging, open:
+
+View → Run and Debug → WATCH panel (left sidebar)
+
+##### 9.7.2 Inspect Watch Variables
+
+The **Side Bar** in the **Run and Debug** view provides several panels for inspection:
+
+##### 9.7.3 A. Variables
+
+This panel automatically shows the current value of all **Local** variables (variables defined within the current function/scope) and **Global** variables. As you step through the code, these values update in real-time.
+
+##### 9.7.4 B. Watch
+
+The **Watch** panel allows you to explicitly monitor variables or expressions.
+
+1.  Click the **Add Expression** button (usually a + icon) in the **Watch** panel.
+2.  Type the name of a **variable** (e.g., my\_list) or a **complex expression** (e.g., len(my\_list) > 5).
+3.  The value of the watched variable/expression will be displayed and updated automatically every time the debugger pauses. This is helpful for keeping track of key values across multiple steps.
+
+##### 9.7.5 C. Call Stack
+
+This panel shows the sequence of function calls that led to the current line of execution, which is helpful for understanding program flow.
+
+##### 9.7.6 D. Debug Console
+
+You can execute arbitrary Python commands and evaluate expressions in the **Debug Console** (found in the **Panel** at the bottom) while the code is paused. For example, you can type print(my\_variable) or even change a variable's value directly.
+
+#### 9.8 What you can do with Watch Variables
+
+*   Add a variable name (e.g., count, user.name)
+*   Add expressions (e.g., a + b, len(items))
+*   VS Code will **update their values live** as you step through the program.
+
+##### 9.8.1 Why Watch Variables are useful
+
+*   Track how a value changes over time
+*   Debug logic errors
+*   Avoid adding temporary print statements
+*   Inspect nested objects or expressions easily
+
+##### 9.8.1 Hover to inspect variables
+
+Simply place your mouse over any variable:
+
+Example:
+
+Hover over a → small popup shows:
+
+`10`
+
+Very useful!
+
+##### 9.8.2 Adding a new breakpoint
+
+You can add multiple breakpoints on different lines.
+
+Example:  
+Add one inside the function:
+
+`result = x + y`
+
+Now debugging will stop inside the function too.
+
+##### 9.8.3 ✔ Example Debugging Flow (beginner)
+
+1.  Start debugging (F5)
+2.  Execution stops at breakpoint
+3.  Hover variables to see values
+4.  Click "Step Into" to enter function
+5.  Move line by line
+6.  Watch how variables change
+7.  Click "Continue" to finish
+
+### 10 Debugging common beginner mistakes
+
+#### 10.1 ❌ Error example:-
+
+`print(result)`
+
+But you never defined result.
+
+Debugger will show:
+
+`NameError: name 'result' is not defined`
+
+You can use "Call Stack" + stepping to find where it failed.
+
+#### 10.2 Debugging input() programs
+
+If your script has `input()`:
+
+`name = input("Enter your name: ")`
+
+Debugger will pause and ask for input in terminal.
+
+#### 10.3 Debug Configuration (optional)
+
+VS Code may create a `.vscode/launch.json` file.
+
+Beginners do NOT need to edit it.
+
+Just choose:
+
+Python: Current File
+
+#### 10.3 Summary: VS Code Debug Steps
+
+1.  Open your Python file
+2.  Set a breakpoint (red dot)
+3.  Press **F5** (Run & Debug)
+4.  Program pauses
+5.  Inspect variables
+6.  Step line-by-line
+7.  Fix mistakes
+
+
+
+
+
 
 
 
