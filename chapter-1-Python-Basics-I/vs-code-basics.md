@@ -76,6 +76,10 @@ When VS Code launches:
     *   Buttons to create/open files
     
 #### 2.2.2 Understanding the VS Code Interface (Beginner-Friendly)
+
+![UI](https://github.com/ag999git/python-book-2026/blob/main/chapter-1-Python-Basics-I/vs-code-images/VS-code-main-parts-of-UI.jpg)
+
+#### Main parts of the UI of VS Code
     
 Below is the simplest explanation of each part:
     
