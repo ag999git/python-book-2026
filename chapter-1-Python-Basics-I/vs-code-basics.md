@@ -83,7 +83,7 @@ Below is the simplest explanation of each part:
     
 This vertical bar has 5–6 icons. The **Activity Bar** is the thin bar on the far left that lets you switch between different views within the **Side Bar**. The icons typically found here (from top to bottom) are:-
 
-
+![Activity Bar (left side icons)](https://github.com/ag999git/python-book-2026/blob/main/chapter-1-Python-Basics-I/vs-code-images/VS-code-activity-bar.jpg)
 
 
 
