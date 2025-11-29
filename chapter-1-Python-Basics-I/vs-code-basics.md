@@ -780,6 +780,8 @@ But recommended:
 ✔ Pylance (improves autocomplete)
 ✔ Jupyter (for Notebook-style code)
 
+[Back to Table of Contents](#table-of-contents)
+
 #### 11. VS Code says “Python not found”. What should I do?
 Try the following:
 1.	Close VS Code
@@ -893,6 +895,8 @@ Use the icons at the top:
 *   📁 New Folder
 *   🗑️ Delete
 
+[Back to Table of Contents](#table-of-contents)
+
 #### C. Editor Area (The main coding window)
 
 ##### What is the Editor Area?
@@ -955,6 +959,8 @@ Click it to change indentation.
 
 Click it → select the correct python.exe.
 
+[Back to Table of Contents](#table-of-contents)
+
 #### F. Panel (Bottom window for Terminal, Output, Problems)
 
 ##### What is the bottom “Panel”?
@@ -1014,6 +1020,8 @@ Click an error → It jumps to that line.
 ##### Why are there yellow warnings?
 
 Warnings are suggestions, not errors.
+
+[Back to Table of Contents](#table-of-contents)
 
 #### I. Output Panel
 
@@ -1075,6 +1083,8 @@ Disable extra extensions → “Disable” button.
 
 Yes → type in the search bar.
 
+[Back to Table of Contents](#table-of-contents)
+
 #### M. Minimap (tiny map of code on right side)
 
 ##### What is that tiny vertical map?
@@ -1129,7 +1139,7 @@ Uncheck “Show Welcome Page”.
 
 
 
-
+[Back to Table of Contents](#table-of-contents)
 
 #### 13 VS Code IntelliSense FAQ
 
@@ -1216,6 +1226,8 @@ Try:
 3.  Disable unused extensions
 4.  Update VS Code
 5.  Update Python extension
+
+[Back to Table of Contents](#table-of-contents)
 
 ##### 8 IntelliSense doesn’t detect installed libraries (like numpy). Why?
 
