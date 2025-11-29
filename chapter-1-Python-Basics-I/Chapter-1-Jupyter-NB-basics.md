@@ -145,13 +145,13 @@ Example: `localhost:8888`
 
 Even though everything is on your computer, this model gives benefits:
 
-•  Benefit 1: Browser-based interface:- You don’t need a separate desktop app.
+  -  Benefit 1: Browser-based interface:- You don’t need a separate desktop app.
 
-•  Benefit 2: Remote execution:- Same model works on remote servers (e.g., Google Colab, JupyterHub, cloud).
+  -  Benefit 2: Remote execution:- Same model works on remote servers (e.g., Google Colab, JupyterHub, cloud).
 
-•  Benefit 3: Allows multiple clients:- Multiple browser tabs can talk to the same kernel.
+  -  Benefit 3: Allows multiple clients:- Multiple browser tabs can talk to the same kernel.
 
-•  Benefit 4: Language independence:- Kernel can be Python, R, Julia, etc., while browser stays the same.
+  -  Benefit 4: Language independence:- Kernel can be Python, R, Julia, etc., while browser stays the same.
 
 #### 1.2 PART 1: Installing Anaconda (which includes Jupyter Notebook)
 
