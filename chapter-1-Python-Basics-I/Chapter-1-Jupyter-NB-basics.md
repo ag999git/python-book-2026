@@ -5,6 +5,7 @@
 - [1.4 PART 3: OPTIONAL — Installing Jupyter Notebook Without Anaconda](#14-part-3-optional-installing-jupyter-notebook-without-anaconda)
 - [1.5 PART 4: Setting Up a Virtual Environment for Jupyter](#15-part-4-setting-up-a-virtual-environment-for-jupyter)
 - [1.6 PART 5: Verifying Everything Works](#16-part-5-verifying-everything-works)
+- [1.7 Some more details of the local server when you launch Jupyter](#17-some-more-details-of-the-local-server-when-you-launch-jupyter)
 
 
 
