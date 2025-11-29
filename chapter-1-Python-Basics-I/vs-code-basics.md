@@ -14,7 +14,7 @@
 - [9. Debug](#9-debug)
 - [10. Debugging common beginner mistakes](#10-debugging-common-beginner-mistakes)
 - [11. FAQ](#10-faq)
-- [FAQ VS Code User Interface](#-faq-vs-code-user-interface)
+- [12. FAQ VS Code User Interface](#12-faq-vs-code-user-interface)
 
 
 ### 1 VS Code Basics
@@ -695,7 +695,7 @@ Python: Current File
 
 
 
-### 10. FAQ
+### 11. FAQ
 (Frequently Asked Questions)
 
 #### 1. What is VS Code?
@@ -828,7 +828,7 @@ Yes — but updates are small and usually fast.
 
 [Back to Table of Contents](#table-of-contents)
 
-### FAQ VS Code User Interface
+### 12. FAQ VS Code User Interface
 
 Below are FAQs for each major panel, window, and section of the VS Code UI.
 
