@@ -78,6 +78,7 @@ Click Install and wait.
 
 Tick "Launch Visual Studio Code" → Finish.
 
+[Back to Table of Contents](#table-of-contents)
 
 ### 2 Setup
 
