@@ -125,7 +125,7 @@ Think of it like a control panel, not a server.
 
 ##### 1.1.5 How Everything Fits Together
 
-•  ✔ When you start Jupyter from Anaconda:
+✔ When you start Jupyter from Anaconda:
 
 1.  Anaconda starts the Jupyter Notebook Server
 
@@ -171,9 +171,9 @@ https://www.anaconda.com/download
 
 ###### 2.  Choose:
 
-o  Operating System: Windows
+  - Operating System: Windows
 
-o  Python Version: Choose `Python 3.x` (default is fine)
+  - Python Version: Choose `Python 3.x` (default is fine)
 
 ###### 3.  Click Download 64-bit Installer.
 
@@ -227,7 +227,7 @@ This may take 5–10 minutes.
 
 ##### 1.2.8 STEP 8 — Finish
 
-Click Next → Next → Finish.
+Click `Next → Next → Finish`.
 
 You're done installing Anaconda!
 
@@ -237,13 +237,13 @@ There are two easy methods.
 
 ##### 1.3.1 METHOD 1: Use Start Menu
 
-1.  Press Start.
+1.  Press `Start`.
 
-2.  Search Anaconda Navigator.
+2.  Search `Anaconda Navigator`.
 
 3.  Open it.
 
-4.  On the home screen, click Launch under Jupyter Notebook.
+4.  On the home screen, click `Launch` under Jupyter Notebook.
 
 ✔ This opens Jupyter Notebook in your browser.
 
@@ -567,7 +567,7 @@ o  bash commands
 
 This is very powerful and often used for managing environments.
 
-1.9.3 XXX
+##### 1.9.3 Parts of various toolbars/ panels in the UI
 
 ###### 1 Header / Top Bar
 
@@ -695,9 +695,9 @@ Common buttons (left→right):
 
 •  Important actions:
 
-o  Interrupt — stop a running cell (like Ctrl+C)
+  -  Interrupt — stop a running cell (like Ctrl+C)
 
-o  Restart — clear memory and restart Python kernel
+  - Restart — clear memory and restart Python kernel
 
 Tip: If state is “Busy” and your code is stuck, click Interrupt or Restart.
 
@@ -705,9 +705,9 @@ Tip: If state is “Busy” and your code is stuck, click Interrupt or Restart.
 
 •  Two main cell types:
 
-o  Code cells — contain executable Python code
+  - Code cells — contain executable Python code
 
-o  Markdown cells — for formatted text, headings, lists, images
+  - Markdown cells — for formatted text, headings, lists, images
 
 •  Each cell has its own run button (▶ on the left) and an execution number like In [1].
 
@@ -733,25 +733,25 @@ o  Markdown cells — for formatted text, headings, lists, images
 
 o  Esc → Command mode
 
-o  Enter → Edit mode
+  -  Enter → Edit mode
 
-o  A (in Command) → Insert cell above
+  - A (in Command) → Insert cell above
 
-o  B (in Command) → Insert cell below
+  - B (in Command) → Insert cell below
 
-o  M → change to Markdown
+  - M → change to Markdown
 
-o  Y → change to Code
+  - Y → change to Code
 
-o  D, D (press D twice) → delete cell
+  - D, D (press D twice) → delete cell
 
-o  Shift+Enter → run cell and advance
+  - Shift+Enter → run cell and advance
 
-o  Ctrl+Enter → run cell, do not advance
+  - Ctrl+Enter → run cell, do not advance
 
-o  Alt+Enter → run cell and insert new cell below
+  - Alt+Enter → run cell and insert new cell below
 
-o  H → show all keyboard shortcuts
+  - H → show all keyboard shortcuts
 
 ###### 7 Output Area
 
@@ -880,11 +880,10 @@ Example:
  entire cell is timed
 
 ```python
+
 x = 0
-
 for i in range(1000000):
-
-x += i
+    x += i
 ```
 
 ##### 2.1.4 Common Cell magic commands in tabular form
