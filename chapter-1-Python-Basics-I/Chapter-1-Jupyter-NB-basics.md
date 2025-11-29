@@ -264,7 +264,7 @@ If you already have Python installed, you can install Jupyter with pip.
 
 ##### 1.4.1 STEP 1 — Check Python Installation
 
-Open Command Prompt:
+Open Command Prompt:-
 
 `python --version`
 
@@ -318,7 +318,7 @@ In Jupyter:
 
 `print("Hello Jupyter!")`
 
-3.  Press Shift + Enter.
+3.  Press `Shift + Enter`.
 
 If it prints the message, your setup is perfect.
 
@@ -358,9 +358,9 @@ Computers can run many servers at the same time, each identified by a port.
 
 Port `8888` means:
 
-•  Jupyter Notebook server is listening for connections on port 8888.
+  -  Jupyter Notebook server is listening for connections on port 8888.
 
-•  If another service is already using 8888, Jupyter uses 8889, 8890, etc.
+  -  If another service is already using 8888, Jupyter uses 8889, 8890, etc.
 
 So:
 
@@ -376,11 +376,11 @@ This is the route or endpoint that displays the file browser view.
 
 This view is called the Tree View because:
 
-•  Your files are shown like a branching folder tree. The Jupyter interface you see (list of folders/files) is called the Tree View.
+  -  Your files are shown like a branching folder tree. The Jupyter interface you see (list of folders/files) is called the Tree View.
 
-•  You can navigate up and down directories
+  -  You can navigate up and down directories
 
-•  You can open, delete, rename, or create new notebooks
+  -  You can open, delete, rename, or create new notebooks
 
 So /tree loads:
 
@@ -388,19 +388,19 @@ The main home screen where you pick notebooks to open.
 
 If you open a notebook, URL changes, for example:
 
-•  `/notebooks/MyNotebook.ipynb`
+  -  `/notebooks/MyNotebook.ipynb`
 
-•  `/edit/somefile.py`
+  -  `/edit/somefile.py`
 
-•  `/terminals/1`
+  -  `/terminals/1`
 
-•  Tree = File Browser View
+  -  Tree = File Browser View
 
 It refers to the directory tree — the list of folders and files on your computer, displayed in a hierarchical (tree-like) structure.
 
 ##### 1.7.5 Putting it all together
 
-http://localhost:8888/tree means:
+`http://localhost:8888/tree` means:
 
 “Open the Jupyter Notebook server that is running on my own computer (localhost), using port 8888, and display the tree (file browser) interface.”
 
