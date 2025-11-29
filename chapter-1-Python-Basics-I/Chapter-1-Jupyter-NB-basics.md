@@ -261,7 +261,7 @@ Press Enter.
 
 1.3.3 You Now Have Jupyter Notebook Installed!
 
-#### 1.4 PART 3: OPTIONAL — Installing Jupyter Notebook Without Anaconda
+#### 1.4 PART 3: OPTIONAL Installing Jupyter Notebook Without Anaconda
 
 If you already have Python installed, you can install Jupyter with pip.
 
