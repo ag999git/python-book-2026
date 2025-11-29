@@ -99,6 +99,7 @@ When VS Code launches:
 [Back to Table of Contents](#table-of-contents)
 
 ### 3 VS Code Interface
+[Back to Table of Contents](#table-of-contents)
 
 ![UI](https://github.com/ag999git/python-book-2026/blob/main/chapter-1-Python-Basics-I/vs-code-images/VS-code-main-parts-of-UI.jpg)
 
@@ -198,8 +199,8 @@ Each one of the Sidebar views are discussed as follows:-
 
 ### 4 Some important Extensions for Python programming
     
-# 
-    
+[Back to Table of Contents](#table-of-contents)
+
 Open **Extensions** → search → install:
     
 ##### 4.1 Python (Microsoft)  
@@ -220,6 +221,8 @@ Run code with one click
  [Back to Table of Contents](#table-of-contents)
 
 ### 5 Python workflow in VS Code
+
+[Back to Table of Contents](#table-of-contents)
 
 #### A Beginner’s VS Code + Python Workflow (Step-by-Step)
 
@@ -313,6 +316,8 @@ That’s it — you completed the basic workflow!
   
 ### 6. How to Create a Python Project
 
+[Back to Table of Contents](#table-of-contents)
+
 Here are the recommended steps for beginners.
 
 #### 6.1 Step 1: Create a folder
@@ -371,6 +376,8 @@ Examples:
 
 ### 7. How to Run Python Scripts in VS Code
 
+[Back to Table of Contents](#table-of-contents)
+
 There are **3 beginner methods**:
 
 #### 7.1 Method 1: Using Terminal (most recommended)
@@ -410,6 +417,8 @@ Not recommended for advanced use, but beginners like it.
 [Back to Table of Contents](#table-of-contents)
   
 ### 8 Common Beginner Errors and Quick Fixes
+
+[Back to Table of Contents](#table-of-contents)
 
 These are the most common problems Indian beginners face on Windows.
  
@@ -495,6 +504,8 @@ Beginners sometimes do:- `main.py.txt`
 [Back to Table of Contents](#table-of-contents)
 
 ### 9 Debug
+
+[Back to Table of Contents](#table-of-contents)
 
 #### 9.1 Debugging Python Code in VS Code (Beginner Guide)**
 
@@ -647,6 +658,8 @@ Now debugging will stop inside the function too.
 
 ### 10 Debugging common beginner mistakes
 
+[Back to Table of Contents](#table-of-contents)
+
 #### 10.1 ❌ Error example:-
 
 `print(result)`
@@ -697,6 +710,8 @@ Python: Current File
 
 ### 11. FAQ
 (Frequently Asked Questions)
+
+[Back to Table of Contents](#table-of-contents)
 
 #### 1. What is VS Code?
 VS Code (Visual Studio Code) is a free, lightweight code editor made by Microsoft.
@@ -829,6 +844,8 @@ Yes — but updates are small and usually fast.
 [Back to Table of Contents](#table-of-contents)
 
 ### 12. FAQ VS Code User Interface
+
+[Back to Table of Contents](#table-of-contents)
 
 Below are FAQs for each major panel, window, and section of the VS Code UI.
 
@@ -1110,6 +1127,7 @@ Uncheck “Show Welcome Page”.
 
 #### Disclaimer
 
+[Back to Table of Contents](#table-of-contents)
 
 
 
