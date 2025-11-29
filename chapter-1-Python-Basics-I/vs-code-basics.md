@@ -7,6 +7,9 @@
 - [2 Setup](#2-setup)
 - [3 VS Code Interface](#3-vs-code-interface)
 - [4 Some important Extensions for Python programming](#4-some-important-extensions-for-python-programming)
+- [5 Python workflow in VS Code](#5-python-workflow-in-vs-code)
+- []()
+- []()
 - []()
 
 
