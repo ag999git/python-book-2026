@@ -910,6 +910,9 @@ for i in range(1000000):
 
 #### 3.1 Flowchart
 
+XYZ
+
+
 ##### 3.1.1 Explanation
 
 ###### A — Anaconda Navigator
@@ -1077,7 +1080,7 @@ This completes the cycle:
 
 5.  Browser displays it
 
-#### 3.2 Where does Jupyter Stores Kernels
+#### 3.2 Where does Jupyter Store Kernels
 
 Common paths:
 
