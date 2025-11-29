@@ -3,12 +3,12 @@
 ## VS Code
 
 ### Table of Contents
-- [1 VS Code Basics](#1-vs-code-basics)
-- [2 Setup](#2-setup)
-- [3 VS Code Interface](#3-vs-code-interface)
-- [4 Some important Extensions for Python programming](#4-some-important-extensions-for-python-programming)
-- [5 Python workflow in VS Code](#5-python-workflow-in-vs-code)
-- []()
+- [1. VS Code Basics](#1-vs-code-basics)
+- [2. Setup](#2-setup)
+- [3. VS Code Interface](#3-vs-code-interface)
+- [4. Some important Extensions for Python programming](#4-some-important-extensions-for-python-programming)
+- [5. Python workflow in VS Code](#5-python-workflow-in-vs-code)
+- [6. How to Create a Python Project](#6-how-to-create-a-python-project)
 - []()
 - []()
 
@@ -209,23 +209,14 @@ Lets you run .ipynb notebooks inside VS Code
 #### 4.4 Code Runner (optional)  
 Run code with one click
 
-
-
-
-
-
-
-
-  
+ 
 
 ### 5 Python workflow in VS Code
 
 #### A Beginner’s VS Code + Python Workflow (Step-by-Step)
 
-
 This is the simplest workflow for complete beginners.
 
-  
 
 #### 5.1 Step 1: Install Python
 
@@ -286,7 +277,6 @@ Example:
 
 #### 5.8 Step 8: Open the VS Code Terminal
 
-
 Shortcut:
 
 ~~~
@@ -294,7 +284,6 @@ Ctrl + `
 ~~~
 
 This opens a terminal panel at the bottom.
-
 
 
 #### 5.9 Step 9: Run your Python script
@@ -312,8 +301,7 @@ You will see:
 That’s it — you completed the basic workflow!
 
   
-
-### 6. How to Create a Python Project (Beginner Steps)
+### 6. How to Create a Python Project
 
 Here are the recommended steps for beginners.
 
