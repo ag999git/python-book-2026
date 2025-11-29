@@ -16,6 +16,7 @@
 - [11. FAQ](#10-faq)
 - [12. FAQ VS Code User Interface](#12-faq-vs-code-user-interface)
 - [13 VS Code IntelliSense FAQ](#13-vs-code-intellisense-faq)
+- [Disclaimer](#disclaimer)
 
 
 ### 1 VS Code Basics
@@ -1290,7 +1291,7 @@ It does work, but:
 
 Make sure Jupyter extension is installed.
 
-# 2 END
+
 
 
 #### Disclaimer
