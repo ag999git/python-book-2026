@@ -1,6 +1,6 @@
 ### Table of contents
 
-
+[1.2 PART 1: Installing Anaconda (which includes Jupyter Notebook)](#12-part-1-installing-anaconda-which-includes-Jupyter-Notebook)
 
 
 ### 1 Anaconda
