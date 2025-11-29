@@ -55,7 +55,7 @@ Click “I accept the agreement” → Next.
     
 Beginners should leave it as:-
     
-C:\\Users\\<YourName>\\AppData\\Local\\Programs\\Microsoft VS Code
+`C:\Users\<YourName>\AppData\Local\Programs\Microsoft VS Code`
     
 Click Next.
     
