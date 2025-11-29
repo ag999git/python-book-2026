@@ -1,7 +1,17 @@
 
 
 ## VS Code
-### 1.1 VS Code basics
+
+### Table of Contents
+- [1 VS Code Basics]()
+
+
+- [2 Setup](#2-setup)
+
+
+### 1 VS Code Basics
+
+### 1.1 VS Code Introduction
 VS Code is best described as A local desktop IDE/editor. It can run on Windows/Mac/Linux.
 
 ### 1.2 Downloading VS Code (Step-by-step)
@@ -63,7 +73,9 @@ Click Install and wait.
 Tick "Launch Visual Studio Code" → Finish.
 
 
-### 2.1 First-time Setup for Beginners
+### 2 Setup
+
+### 2.1 First-time Setup
 When VS Code launches:
     
 #### 2.1.1 You may see:
