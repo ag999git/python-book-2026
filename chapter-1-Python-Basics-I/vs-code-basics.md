@@ -693,7 +693,143 @@ Python: Current File
 
 
 
+### FAQ
 
+
+#### 1. What is VS Code?
+VS Code (Visual Studio Code) is a free, lightweight code editor made by Microsoft.
+It is not a full heavyweight IDE like PyCharm, but it becomes powerful by adding extensions (plugins).
+
+#### 2. Is VS Code free to download?
+✅ Yes, 100% free
+You can use it forever — no trial, no subscription.
+
+#### 3. Where should I download VS Code from?
+Always download from the official Microsoft website:
+ https://code.visualstudio.com/
+Never download from third-party websites.
+
+#### 4. What version should I download for Windows?
+Choose this:- User Installer (64-bit)
+This is the simplest and recommended for beginners.
+
+#### 5. How do I install VS Code after downloading?
+Steps:
+1.	Double-click the downloaded .exe file
+2.	Accept the license
+3.	Click Next → Next → Install
+4.	When installation completes, check Launch VS Code
+5.	Click Finish
+That’s it!
+
+#### 6. Do I need to install Python before using VS Code?
+Yes. VS Code does not include Python.
+Download Python from:
+ https://www.python.org/downloads/
+Make sure you check:
+✔ Add Python to PATH (VERY important for Windows)
+
+#### 7. Do I need to add Python to PATH manually?
+If you checked Add Python to PATH during installation → No
+If not → VS Code will not detect Python.
+To fix it:
+Reinstall Python → check Add to PATH
+
+#### 8. How do I check if Python is installed correctly?
+Open Command Prompt and type:
+python --version
+If it shows a version like 3.12.x, you're good.
+If you see:
+‘python’ is not recognized...
+→ Python PATH is not set → reinstall Python with PATH enabled.
+
+#### 9. How do I install Python extension in VS Code?
+Open VS Code → left sidebar Extensions icon → search:
+Python
+Click Install on:
+✔ Microsoft Python extension (official)
+VS Code will now:
+•	Detect Python
+•	Enable debugging
+•	Enable IntelliSense (autocomplete)
+•	Show errors and warnings
+
+#### 10. Do I need any other extensions as a beginner?
+Not required.
+But recommended:
+✔ Python (by Microsoft)
+✔ Pylance (improves autocomplete)
+✔ Jupyter (for Notebook-style code)
+
+#### 11. VS Code says “Python not found”. What should I do?
+Try the following:
+1.	Close VS Code
+2.	Reinstall Python with Add to PATH checked
+3.	Reopen VS Code
+4.	Press Ctrl + Shift + P → Type:
+5.	Python: Select Interpreter
+6.	Choose the Python version installed on your PC
+This solves most issues.
+
+#### 12. Should I use VS Code or PyCharm as a beginner?
+Use VS Code because it is:
+•	lighter
+•	easier to navigate
+•	fast to install
+•	works well on normal laptops
+•	easier for school/college beginners
+PyCharm is very powerful but heavier.
+
+#### 13. Will VS Code slow down my computer?
+No.
+It is one of the most lightweight code editors.
+
+#### 14. Do I need internet to use VS Code?
+Only for installing extensions the first time.
+After that, no internet needed for writing or running code.
+
+#### 15. Can I run Python scripts inside VS Code?
+Yes.
+Just open your .py file and click:
+▶ Run
+or press:
+Ctrl + F5
+
+#### 16. What if I open VS Code and see a blank screen?
+You must open a folder, not individual files.
+Steps:
+1.	Click File → Open Folder
+2.	Select your project folder
+3.	Now VS Code will detect files properly
+
+#### 17. Is VS Code safe to install in college computers?
+Yes, VS Code is from Microsoft and is widely used in:
+•	engineering colleges
+•	IITs
+•	coaching institutes
+•	professional companies
+
+#### 18. Do I need admin permission to install VS Code?
+Usually no, especially if you download the User Installer version.
+
+#### 19. Why is VS Code not detecting my new Python installation?
+Try these fixes:
+✔ Restart VS Code
+✔ Restart Windows
+✔ Select interpreter manually
+✔ Reinstall Python with PATH
+
+#### 20. Does VS Code automatically update?
+Yes — but updates are small and usually fast.
+
+
+
+
+
+
+
+
+#### TEST
 
 
 
