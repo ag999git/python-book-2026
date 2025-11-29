@@ -13,6 +13,8 @@
 - [8. Common Beginner Errors and Quick Fixes](#8-common-beginner-errors-and-quick-fixes)
 - [9. Debug](#9-debug)
 - [10. Debugging common beginner mistakes](#10-debugging-common-beginner-mistakes)
+- [FAQ](#-faq)
+- [FAQ VS Code User Interface](#-faq-vs-code-user-interface)
 
 
 ### 1 VS Code Basics
