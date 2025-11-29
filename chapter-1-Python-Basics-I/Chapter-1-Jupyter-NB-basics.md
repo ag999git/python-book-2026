@@ -1,4 +1,4 @@
-
+### Table of contents
 
 
 
@@ -173,13 +173,13 @@ https://www.anaconda.com/download
 
 o  Operating System: Windows
 
-o  Python Version: Choose Python 3.x (default is fine)
+o  Python Version: Choose `Python 3.x` (default is fine)
 
 ###### 3.  Click Download 64-bit Installer.
 
 A file called something like:
 
-Anaconda3-2024.XX-Windows-x86_64.exe
+`Anaconda3-2024.XX-Windows-x86_64.exe`
 
 will start downloading.
 
@@ -253,7 +253,7 @@ There are two easy methods.
 
 2.  Type:
 
-jupyter notebook
+`jupyter notebook`
 
 Press Enter.
 
@@ -295,21 +295,21 @@ jupyter notebook
 
 ##### 1.5.1 STEP 1 — Create Environment
 
-python -m venv myenv
+`python -m venv myenv`
 
 ##### 1.5.2 STEP 2 — Activate Environment
 
 Windows:
 
-myenv\Scripts\activate
+`myenv\Scripts\activate`
 
 ##### 1.5.3 STEP 3 — Install Jupyter Inside This Environment
 
-pip install notebook
+`pip install notebook`
 
 ##### 1.5.4 STEP 4 — Launch Jupyter
 
-jupyter notebook
+`jupyter notebook`
 
 #### 1.6 PART 5: Verifying Everything Works
 
@@ -319,7 +319,7 @@ In Jupyter:
 
 2.  In the first cell, type:
 
-print("Hello Jupyter!")
+`print("Hello Jupyter!")`
 
 3.  Press Shift + Enter.
 
@@ -347,9 +347,9 @@ This means:
 
 •  The server is running on your own computer, not on the internet.
 
-•  "localhost" always refers to your own machine.
+•  `localhost` always refers to your own machine.
 
-•  It is the hostname for IP address 127.0.0.1 (loopback address).
+•  It is the hostname for IP address `127.0.0.1` (loopback address).
 
 So opening localhost is like telling your browser:
 
@@ -391,11 +391,11 @@ The main home screen where you pick notebooks to open.
 
 If you open a notebook, URL changes, for example:
 
-•  /notebooks/MyNotebook.ipynb
+•  `/notebooks/MyNotebook.ipynb`
 
-•  /edit/somefile.py
+•  `/edit/somefile.py`
 
-•  /terminals/1
+•  `/terminals/1`
 
 •  Tree = File Browser View
 
@@ -507,7 +507,7 @@ Given below is the screen shot of Screen 1 with the “New” button clicked. It
 
 ##### 1.9.2 UI of screen 1
 
-.venv
+`.venv`
 
 •  This is a virtual environment you created inside your project folder named .venv.
 
@@ -517,7 +517,7 @@ Given below is the screen shot of Screen 1 with the “New” button clicked. It
 
 Useful when you want isolated packages for one project.
 
-Java
+`Java`
 
 •  This means you have a Java kernel installed (e.g., via IJava).
 
@@ -659,19 +659,19 @@ This is where you write and run code and see outputs.
 
 Typical menus:
 
-•  File — New, Open, Make a copy, Rename, Save and Checkpoint, Download as (HTML, .py, .ipynb), Close and Halt
+•  `File` — New, Open, Make a copy, Rename, Save and Checkpoint, Download as (HTML, .py, .ipynb), Close and Halt
 
-•  Edit — Cut/Copy/Paste cells, Find & Replace
+•  `Edit` — Cut/Copy/Paste cells, Find & Replace
 
-•  View — Toggle toolbar/menu/line numbers
+•  `View` — Toggle toolbar/menu/line numbers
 
-•  Insert — Insert cell above/below
+•  `Insert` — Insert cell above/below
 
-•  Cell — Run Cells, Run All, Cell Type (Code / Markdown)
+•  `Cell` — Run Cells, Run All, Cell Type (Code / Markdown)
 
-•  Kernel — Interrupt / Restart / Reconnect / Change kernel
+•  `Kernel` — Interrupt / Restart / Reconnect / Change kernel
 
-•  Help — Keyboard shortcuts, docs, kernel info
+•  `Help` — Keyboard shortcuts, docs, kernel info
 
 Tip: File → Save and Checkpoint creates a backup checkpoint. Browser autosaves periodically.
 
@@ -679,13 +679,13 @@ Tip: File → Save and Checkpoint creates a backup checkpoint. Browser autosaves
 
 Common buttons (left→right):
 
-•  Save (floppy icon)
+•  `Save` (floppy icon)
 
-•  Add cell, Cut/Copy/Paste cell, Move cell up/down
+• ` Add cell, Cut/Copy/Paste cell, Move cell up/down`
 
-•  Run cell (▶) and Run all
+•  `Run cell (▶) and Run all`
 
-•  Interrupt kernel (stop), Restart kernel (⟳)
+•  I`nterrupt kernel (stop), Restart kernel (⟳)`
 
 ###### 4 Kernel Status (top right)
 
