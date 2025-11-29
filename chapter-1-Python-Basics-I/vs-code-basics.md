@@ -94,6 +94,8 @@ When VS Code launches:
     *   Themes (light/dark)
     *   Buttons to create/open files
     
+[Back to Table of Contents](#table-of-contents)
+
 ### 3 VS Code Interface
 
 ![UI](https://github.com/ag999git/python-book-2026/blob/main/chapter-1-Python-Basics-I/vs-code-images/VS-code-main-parts-of-UI.jpg)
@@ -190,7 +192,8 @@ Each one of the Sidebar views are discussed as follows:-
     If you install Python, VS Code detects it.
    
       
-    
+[Back to Table of Contents](#table-of-contents)
+
 ### 4 Some important Extensions for Python programming
     
 # 
@@ -212,7 +215,7 @@ Lets you run .ipynb notebooks inside VS Code
 #### 4.4 Code Runner (optional)  
 Run code with one click
 
- 
+ [Back to Table of Contents](#table-of-contents)
 
 ### 5 Python workflow in VS Code
 
@@ -303,6 +306,8 @@ You will see:
 
 That’s it — you completed the basic workflow!
 
+[Back to Table of Contents](#table-of-contents)
+
   
 ### 6. How to Create a Python Project
 
@@ -359,6 +364,8 @@ Examples:
 `pip install numpy`
 
 
+[Back to Table of Contents](#table-of-contents)
+
 
 ### 7. How to Run Python Scripts in VS Code
 
@@ -398,6 +405,7 @@ Run code with one click.
 Not recommended for advanced use, but beginners like it.
 
 
+[Back to Table of Contents](#table-of-contents)
   
 ### 8 Common Beginner Errors and Quick Fixes
 
@@ -482,8 +490,7 @@ Beginners sometimes do:- `main.py.txt`
 
 
 
-
-### test
+[Back to Table of Contents](#table-of-contents)
 
 ### 9 Debug
 
