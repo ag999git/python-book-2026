@@ -159,11 +159,8 @@ Anaconda is the easiest and recommended way for beginners to use Python and Jupy
 
 ##### 1.2.1 STEP 1 — Go to the Anaconda Website
 
-###### 1.  Open your web browser (Chrome, Edge, Firefox).
-
-###### 2.  Go to:
-
-https://www.anaconda.com/download
+  1.  Open your web browser (Chrome, Edge, Firefox).
+  2.  Go to: `https://www.anaconda.com/download`
 
 ##### 1.2.2 STEP 2 — Download the Windows Installer
 
