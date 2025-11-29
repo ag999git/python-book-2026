@@ -23,7 +23,7 @@ So you are still using your computer as:- Both the client AND the server
 
 When you run:
 
-jupyter notebook
+`jupyter notebook`
 
 or click “Launch” in Anaconda Navigator:
 
@@ -55,13 +55,13 @@ The Jupyter interface you see is just a website that your local server provides.
 
 The browser:
 
-•  Displays notebooks
+  - Displays notebooks
 
-•  Sends your code to the server
+  - Sends your code to the server
 
-•  Receives output (text, images, errors)
+  - Receives output (text, images, errors)
 
-•  Updates the notebook content
+  - Updates the notebook content
 
 So the browser acts as a client UI.
 
