@@ -4,8 +4,10 @@
 
 ### Table of Contents
 - [1 VS Code Basics](#1-vs-code-basics)
-
 - [2 Setup](#2-setup)
+- [3 VS Code Interface](#3-vs-code-interface)
+- []()
+- []()
 
 
 ### 1 VS Code Basics
@@ -86,7 +88,7 @@ When VS Code launches:
     *   Themes (light/dark)
     *   Buttons to create/open files
     
-### 3 Understanding the VS Code Interface (Beginner-Friendly)
+### 3 VS Code Interface
 
 ![UI](https://github.com/ag999git/python-book-2026/blob/main/chapter-1-Python-Basics-I/vs-code-images/VS-code-main-parts-of-UI.jpg)
 
