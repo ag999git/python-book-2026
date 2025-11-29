@@ -13,7 +13,7 @@
 - [8. Common Beginner Errors and Quick Fixes](#8-common-beginner-errors-and-quick-fixes)
 - [9. Debug](#9-debug)
 - [10. Debugging common beginner mistakes](#10-debugging-common-beginner-mistakes)
-- [11. FAQ](#-faq)
+- [11. FAQ](#10-faq)
 - [FAQ VS Code User Interface](#-faq-vs-code-user-interface)
 
 
@@ -695,7 +695,7 @@ Python: Current File
 
 
 
-### faq
+### 10. FAQ
 (Frequently Asked Questions)
 
 #### 1. What is VS Code?
