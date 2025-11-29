@@ -15,6 +15,7 @@
 - [10. Debugging common beginner mistakes](#10-debugging-common-beginner-mistakes)
 - [11. FAQ](#10-faq)
 - [12. FAQ VS Code User Interface](#12-faq-vs-code-user-interface)
+- [13 VS Code IntelliSense FAQ](#13-vs-code-intellisense-faq)
 
 
 ### 1 VS Code Basics
@@ -1123,6 +1124,173 @@ Help → Welcome
 ##### How do I disable the welcome screen?
 
 Uncheck “Show Welcome Page”.
+
+
+
+
+
+
+#### 13 VS Code IntelliSense FAQ
+
+##### 1 What is IntelliSense?
+
+IntelliSense is VS Code’s smart auto-completion feature.  
+It helps you by showing:
+
+*   function names
+*   variable suggestions
+*   method lists
+*   documentation tooltips
+
+It saves time and prevents typing mistakes.
+
+##### 2 Why is IntelliSense not showing up?
+
+Common reasons:
+
+  
+*   Python extension is not installed
+  
+*   Wrong interpreter is selected
+  
+*   Errors in your code prevent suggestions
+  
+*   File is not saved as .py
+
+Fix:  
+Check bottom-right → ensure it shows a Python version (e.g., “Python 3.10”).  
+If not, click and choose your Python installation.
+
+##### 3 How do I manually trigger IntelliSense?
+
+Press: Ctrl + Space
+
+This forces IntelliSense to open suggestions even if it did not pop up automatically.
+
+##### 4 How do I see function details / documentation?
+
+Hover your mouse over a function, variable, or class.
+
+VS Code will show:
+
+  
+*   description
+*   parameter list
+*   return type (when available)
+
+  
+##### 5 IntelliSense works in one project but not another. Why?
+
+Possibilities:
+
+  
+*   Different virtual environments
+*   Missing packages
+  
+*   Wrong Python interpreter selected for that folder
+
+Fix:  
+Select the correct interpreter from the bottom-right corner after opening the proper folder.
+
+  
+
+##### 6 Does IntelliSense work without internet?
+
+Yes!  
+VS Code’s IntelliSense works entirely offline because it reads:
+
+  
+*   Python libraries
+*   Your project code
+*   Installed packages
+
+  
+
+##### 7 IntelliSense is slow or lagging. What can I do?
+
+Try:
+
+1.  Restart VS Code
+2.  Close heavy programs
+3.  Disable unused extensions
+4.  Update VS Code
+5.  Update Python extension
+
+##### 8 IntelliSense doesn’t detect installed libraries (like numpy). Why?
+
+Most common cause:  
+VS Code is using a different Python than the one you installed packages into.
+
+Fix:
+
+*   Go to Terminal → python --version
+*   Go to VS Code bottom-right → pick the same version
+
+#####  9 How do I get IntelliSense for project-specific files?
+
+If VS Code is not showing suggestions from your own .py files:
+
+*   Ensure your files are inside the same folder/project
+*   Save the file
+*   Restart VS Code
+
+#####  10 How do I enable/disable IntelliSense?
+
+Go to:
+
+File → Settings → Search “IntelliSense”
+
+You can turn On/Off:
+
+*   Auto suggestions
+*   Parameter hints
+*   Quick suggestions
+
+#####  11 IntelliSense shows wrong or confusing suggestions. What do I do?
+
+Try:
+
+*   Clear Python language server cache
+*   Switch the language server
+
+Options:
+
+*   _Pylance (recommended)_
+*   _Jedi_
+
+Switch via settings → "Python: Language Server".
+
+#####  12 My IntelliSense is giving suggestions from old code. Why?
+
+Because VS Code cached your workspace.
+
+Fix:
+
+*   Close VS Code completely
+*   Reopen the project folder
+
+Or use Developer: Reload Window from command palette.
+
+#####  13 How do I get IntelliSense inside virtual environments?
+
+Just activate the environment in VS Code and select it as the interpreter.
+
+#####   14 How do I get IntelliSense to show parameters while typing?
+
+When typing inside parentheses → press:
+
+Ctrl + Shift + Space
+
+#####   15 IntelliSense doesn’t work with .ipynb files (Jupyter notebooks). Why?
+
+It does work, but:
+
+*   Performance may be slower
+*   Suggestions may appear differently
+
+Make sure Jupyter extension is installed.
+
+# 2 END
 
 
 #### Disclaimer
