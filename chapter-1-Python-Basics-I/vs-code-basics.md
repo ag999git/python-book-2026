@@ -640,6 +640,9 @@ Now debugging will stop inside the function too.
 6.  Watch how variables change
 7.  Click "Continue" to finish
 
+
+[Back to Table of Contents](#table-of-contents)
+
 ### 10 Debugging common beginner mistakes
 
 #### 10.1 ❌ Error example:-
@@ -686,7 +689,7 @@ Python: Current File
 
 
 
-
+[Back to Table of Contents](#table-of-contents)
 
 
 
