@@ -824,9 +824,7 @@ Yes — but updates are small and usually fast.
 
 
 
-
-## TEST
-
+[Back to Table of Contents](#table-of-contents)
 
 ### FAQ VS Code User Interface
 
@@ -851,7 +849,7 @@ Yes → Right-click the Activity Bar → Show/Hide icons.
 
 Yes → Settings → search “Activity Bar location” → Move.
 
-# B. Side Bar / Explorer Panel
+#### B. Side Bar / Explorer Panel
 
 ##### What is the Explorer panel?
 
@@ -862,7 +860,7 @@ It shows all files and folders in your project.
 You opened only a file, not the folder.  
 Fix: File → Open Folder.
 
-## 3.3 Folders look collapsed. How to expand?
+##### Folders look collapsed. How to expand?
 
 Click the small ▸ arrow.
 
