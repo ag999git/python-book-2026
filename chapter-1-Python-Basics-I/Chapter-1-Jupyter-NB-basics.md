@@ -164,9 +164,9 @@ Anaconda is the easiest and recommended way for beginners to use Python and Jupy
 
 ##### 1.2.2 STEP 2 — Download the Windows Installer
 
-###### 1.  Scroll to “Download Anaconda Distribution”.
+  1.  Scroll to “Download Anaconda Distribution”.
 
-###### 2.  Choose:
+  2.  Choose:
 
   - Operating System: Windows
 
