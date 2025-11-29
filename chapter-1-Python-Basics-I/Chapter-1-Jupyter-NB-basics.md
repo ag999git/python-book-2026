@@ -5,6 +5,7 @@
 - [1.4 PART 3: OPTIONAL — Installing Jupyter Notebook Without Anaconda](#14-part-3-optional-installing-jupyter-notebook-without-anaconda)
 
 
+
 ### 1 Anaconda
 
 #### 1.1 Introduction
