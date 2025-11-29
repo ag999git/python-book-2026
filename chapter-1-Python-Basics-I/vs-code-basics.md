@@ -9,7 +9,7 @@
 - [4. Some important Extensions for Python programming](#4-some-important-extensions-for-python-programming)
 - [5. Python workflow in VS Code](#5-python-workflow-in-vs-code)
 - [6. How to Create a Python Project](#6-how-to-create-a-python-project)
-- []()
+- [7. How to Run Python Scripts in VS Code](#7-how-to-run-python-scripts-in-vs-code)
 - []()
 
 
@@ -357,7 +357,7 @@ Examples:
 
 
 
-### 7 How to Run Python Scripts in VS Code**
+### 7. How to Run Python Scripts in VS Code
 
 There are **3 beginner methods**:
 
