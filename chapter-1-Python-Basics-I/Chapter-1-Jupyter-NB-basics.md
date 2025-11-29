@@ -434,17 +434,17 @@ It functions like a file manager.
 
 Here you can:
 
-•  Browse your folders
+  -  Browse your folders
 
-•  See files and subfolders
+  -  See files and subfolders
 
-•  Create new notebooks
+  -  Create new notebooks
 
-•  Open existing notebooks
+  -  Open existing notebooks
 
-•  Upload files
+  -  Upload files
 
-•  Open terminals
+  -  Open terminals
 
 It’s similar to a “home page” or “dashboard.”
 
@@ -458,15 +458,15 @@ This is the actual interactive coding environment where you write Python code in
 
 In this screen, you get:
 
-•  Menu bar
+  -  Menu bar
 
-•  Code cells
+  -  Code cells
 
-•  Markdown cells
+  -  Markdown cells
 
-•  Output area
+  -  Output area
 
-•  Kernel controls
+  -  Kernel controls
 
 This is where you run code.
 
@@ -504,21 +504,24 @@ Given below is the screen shot of Screen 1 with the “New” button clicked. It
 
 ##### 1.9.2 UI of screen 1
 
+XYZ
+
+
 `.venv`
 
-•  This is a virtual environment you created inside your project folder named .venv.
+  -  This is a virtual environment you created inside your project folder named .venv.
 
-•  Jupyter detects it and shows it as a kernel.
+  -  Jupyter detects it and shows it as a kernel.
 
-•  If you select it, notebook cells will run using the Python interpreter inside .venv.
+  -  If you select it, notebook cells will run using the Python interpreter inside .venv.
 
 Useful when you want isolated packages for one project.
 
 `Java`
 
-•  This means you have a Java kernel installed (e.g., via IJava).
+  -  This means you have a Java kernel installed (e.g., via IJava).
 
-•  You can write and run Java code inside a notebook.
+  -  You can write and run Java code inside a notebook.
 
 Example cell:
 ```java
@@ -526,41 +529,41 @@ System.out.println("Hello from Java!");
 ```
 ###### Python 3 (ipykernel)
 
-•  This is the default Python kernel that comes bundled with Jupyter.
+  -  This is the default Python kernel that comes bundled with Jupyter.
 
-•  It uses your system-wide Python installation (not inside a venv).
+  -  It uses your system-wide Python installation (not inside a venv).
 
-•  This is the most common option for general use.
+  -  This is the most common option for general use.
 
 ###### Text File
 
-•  Creates a new blank .txt file.
+  -  Creates a new blank .txt file.
 
-•  Opens a simple text editor in the browser.
+  -  Opens a simple text editor in the browser.
 
-•  Useful for notes, config files, or documentation.
+  -  Useful for notes, config files, or documentation.
 
-Folder
+###### Folder
 
-•  Creates a new folder in the current directory.
+  -  Creates a new folder in the current directory.
 
-•  Helps you organize project files.
+  -  Helps you organize project files.
 
-Terminal
+###### Terminal
 
-•  Opens a Linux-like command-line terminal in your browser.
+-  Opens a Linux-like command-line terminal in your browser.
 
-•  Lets you run:
+-  Lets you run:
 
-o  pip install
+  -  pip install
 
-o  git commands
+  -  git commands
 
-o  virtual environment activation
+  -  virtual environment activation
 
-o  python scripts
+  -  python scripts
 
-o  bash commands
+  -  bash commands
 
 This is very powerful and often used for managing environments.
 
@@ -568,51 +571,51 @@ This is very powerful and often used for managing environments.
 
 ###### 1 Header / Top Bar
 
-•  Title — shows “Files” or the notebook server name.
+  -  Title — shows “Files” or the notebook server name.
 
-•  Logo / Brand — small Jupyter logo and sometimes server info.
+  -  Logo / Brand — small Jupyter logo and sometimes server info.
 
-•  Useful for: Orienting you; no actions here typically.
+  -  Useful for: Orienting you; no actions here typically.
 
 ###### 2 Toolbar (near top of page)
 
 Common buttons you’ll see:
 
-•  New → menu to create:
+-  New → menu to create:
 
-o  New Python 3 notebook (or other kernels)
+  -  New Python 3 notebook (or other kernels)
 
-o  New text file
+  -  New text file
 
-o  New folder
+  -  New folder
 
-o  New terminal (opens a shell tab)
+  -  New terminal (opens a shell tab)
 
-•  Upload → upload files from your computer into the current folder
+- Upload → upload files from your computer into the current folder
 
-•  Refresh → re-scan the directory (useful when files were added externally)
+-  Refresh → re-scan the directory (useful when files were added externally)
 
-•  Control / Shutdown (may appear in other views)
+-  Control / Shutdown (may appear in other views)
 
 Tip: Use New → Notebook to quickly create a .ipynb ready to run.
 
 ###### 3 File / Folder list (the “tree”)
 
-•  Shows all files and folders in the current directory.
+-  Shows all files and folders in the current directory.
 
-•  Each row usually shows:
+-  Each row usually shows:
 
-o  Filename (click to open)
+  -  Filename (click to open)
 
-o  Last modified time
+  -  Last modified time
 
-o  File size (sometimes)
+  -  File size (sometimes)
 
-•  Right-click / three-dot menu on a file offers:
+-  Right-click / three-dot menu on a file offers:
 
-o  Open, Rename, Duplicate, Download, Delete, Move, Edit, View
+  -  Open, Rename, Duplicate, Download, Delete, Move, Edit, View
 
-o  For notebooks you may also see “Shutdown” (stops its kernel)
+  -  For notebooks you may also see “Shutdown” (stops its kernel)
 
 Tip: Clicking a folder enters it; clicking a notebook opens the editor (screen 2).
 
@@ -674,6 +677,9 @@ Tip: File → Save and Checkpoint creates a backup checkpoint. Browser autosaves
 
 ###### 3 Notebook Toolbar (icons under menu)
 
+
+XYZ
+
 Common buttons (left→right):
 
 •  `Save` (floppy icon)
@@ -728,7 +734,7 @@ Tip: If state is “Busy” and your code is stuck, click Interrupt or Restart.
 
 •  Useful shortcuts:
 
-o  Esc → Command mode
+  - Esc → Command mode
 
   -  Enter → Edit mode
 
