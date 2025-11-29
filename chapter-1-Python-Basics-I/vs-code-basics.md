@@ -3,8 +3,7 @@
 ## VS Code
 
 ### Table of Contents
-- [1 VS Code Basics]()
-
+- [1 VS Code Basics](#1-vs-code-basics)
 
 - [2 Setup](#2-setup)
 
