@@ -10,7 +10,7 @@
 - [5. Python workflow in VS Code](#5-python-workflow-in-vs-code)
 - [6. How to Create a Python Project](#6-how-to-create-a-python-project)
 - [7. How to Run Python Scripts in VS Code](#7-how-to-run-python-scripts-in-vs-code)
-- [8 Common Beginner Errors + Quick Fixes](#8-common-beginner-errors-quick-fixes)
+- [8 Common Beginner Errors and Quick Fixes](#8-common-beginner-errors-and-quick-fixes)
 
 
 ### 1 VS Code Basics
@@ -396,7 +396,7 @@ Not recommended for advanced use, but beginners like it.
 
 
   
-### 8 Common Beginner Errors + Quick Fixes
+### 8 Common Beginner Errors and Quick Fixes
 
 These are the most common problems Indian beginners face on Windows.
  
