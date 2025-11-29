@@ -695,8 +695,8 @@ Python: Current File
 
 
 
-### FAQ
-
+### faq
+(Frequently Asked Questions)
 
 #### 1. What is VS Code?
 VS Code (Visual Studio Code) is a free, lightweight code editor made by Microsoft.
