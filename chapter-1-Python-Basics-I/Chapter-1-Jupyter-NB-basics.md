@@ -111,15 +111,15 @@ It launches applications that use the model
 
 It manages environments and packages that these apps need
 
-•  Internally, Anaconda Navigator:
+  -  Internally, Anaconda Navigator:
 
-•  Runs as a local desktop GUI application
+  -  Runs as a local desktop GUI application
 
-•  Acts as a launcher for tools
+  -  Acts as a launcher for tools
 
-•  Starts Jupyter Notebook server when asked
+  -  Starts Jupyter Notebook server when asked
 
-•  Manages Python environments
+  -  Manages Python environments
 
 Think of it like a control panel, not a server.
 
