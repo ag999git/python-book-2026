@@ -16,6 +16,7 @@
 - [11. FAQ](#10-faq)
 - [12. FAQ VS Code User Interface](#12-faq-vs-code-user-interface)
 - [13 VS Code IntelliSense FAQ](#13-vs-code-intellisense-faq)
+- [14 VS Code Terminal FAQ](#14-vs-code-terminal-faq)
 - [Disclaimer](#disclaimer)
 
 
@@ -1302,6 +1303,177 @@ It does work, but:
 *   Suggestions may appear differently
 
 Make sure Jupyter extension is installed.
+
+
+
+
+#### 14 VS Code Terminal FAQ
+
+##### 1 What is the Terminal in VS Code?
+
+The terminal is a small command-line window inside VS Code where you can:
+
+*   run Python files
+*   install packages
+*   create folders
+*   activate virtual environments
+
+It is the same as the Windows Command Prompt, but built right inside VS Code.
+
+##### 2 How do I open the Terminal?
+
+There are two easy ways:
+
+*   Method 1 (Menu)
+
+View → Terminal
+
+*   Method 2 (Shortcut)
+
+~~~
+Ctrl + `
+~~~
+  
+(The key above Tab)
+
+##### 3 How do I run a Python file inside the terminal?
+
+Just type:
+
+`python filename.py`
+
+Example:
+
+`python hello.py`
+
+Then press `Enter`.
+
+##### 4 My terminal says “python not found”. What do I do?
+
+This means Python isn't added to `PATH`.
+
+Fix:
+
+1.  Reinstall Python
+2.  Tick "Add Python to PATH" during installation
+3.  Restart VS Code
+
+##### 5 How do I clear the terminal?
+
+Type:
+
+`cls`
+
+or press:
+
+`Ctrl + L`
+
+##### 6 Why does VS Code create a new terminal sometimes?
+
+Because each terminal can have:
+
+*   its own virtual environment
+*   its own directory
+
+VS Code might create a new one to avoid mixing environments.
+
+You can close unused terminals using the trash icon.
+
+##### 7 How do I switch between multiple terminals?
+
+Click on the Terminal tab names at the top of the terminal panel.
+
+Example:
+
+*   1: `powershell`
+*   2: `cmd`
+*   3: `venv`
+
+##### 8 How do I change the default shell (cmd / PowerShell / Git Bash)?
+
+Go to:
+
+`Terminal → Select Default Profile`
+
+Choose:
+
+*   Command Prompt (cmd)
+*   PowerShell
+*   Git Bash
+*   WSL Ubuntu
+
+##### 9 How do I run a Python virtual environment in the terminal?
+
+Inside VS Code terminal, run:
+
+`.\venv\Scripts\activate`
+
+You should then see:
+
+`(venv)`
+
+before your command prompt.
+
+##### 10 How do I stop a running script?
+
+Press:
+
+`Ctrl + C`
+
+This cancels the running program.
+
+##### 11 My terminal starts in the wrong folder. Why?
+
+VS Code starts the terminal in the folder you opened.
+
+Fix:
+
+*   Close VS Code
+*   Reopen the correct folder using  
+    File → Open Folder
+
+##### 12 How do I install Python packages in the terminal?
+
+Use pip:
+
+`pip install numpy`
+
+or inside a virtual environment:
+
+`pip install requests`
+
+##### 13 Can I resize the terminal window?
+
+Yes!  
+Click and drag the terminal panel’s top border upward or downward.
+
+##### 14 Why does terminal text show random errors in red?
+
+Terminal errors are normal and come from:
+
+*   wrong commands
+*   missing packages
+*   typos
+
+If you want, I can interpret any error message you have.
+
+##### 15 How do I copy and paste inside the terminal?
+
+Paste: Ctrl + V  
+Copy: Ctrl + C _only when text is selected_  
+(Ctrl + C normally stops a running program.)
+
+##### 16 How do I reopen a closed terminal?
+
+Just go to:
+
+View → Terminal  
+or press 
+
+~~~
+Ctrl + `
+~~~
+
 
 
 
