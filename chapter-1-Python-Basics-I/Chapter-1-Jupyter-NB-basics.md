@@ -745,7 +745,7 @@ Very helpful for speeding up work.
 
 
 
-### ABC
+### Relationship between the 2 screens of the Jupyter Notebook UI
 
 
 
