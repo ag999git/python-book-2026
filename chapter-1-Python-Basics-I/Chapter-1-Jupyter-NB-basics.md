@@ -520,7 +520,7 @@ Also given are the various options for each button on the menu bar, in form of a
   - The first column of each table gives the options one gets when he clicks on that menu button. 
   - The second column of each table shows the function/ role of each option.
 
-1 File Menu
+**1 File Menu**
 
 Used for creating, saving, downloading, and managing notebooks.
 
@@ -542,7 +542,7 @@ Used for creating, saving, downloading, and managing notebooks.
 
   
 
-2 Edit Menu
+**2 Edit Menu**
 
 Used for editing cells (cut/copy/paste) and managing cell content.
 
@@ -558,7 +558,7 @@ Used for editing cells (cut/copy/paste) and managing cell content.
 
   
 
-3 View Menu
+**3 View Menu**
 
 Controls visibility of interface elements.
 
@@ -572,7 +572,7 @@ Controls visibility of interface elements.
 
   
 
-4 Insert Menu
+**4 Insert Menu**
 
 Used to add new cells.
 
@@ -583,7 +583,7 @@ Used to add new cells.
 
  
 
-5 Cell Menu
+**5 Cell Menu**
 
 Used to run and manage code/Markdown cells.
 
@@ -600,7 +600,7 @@ Used to run and manage code/Markdown cells.
 
   
 
-6 Kernel Menu
+**6 Kernel Menu**
 
   
 
@@ -617,7 +617,7 @@ Controls Python execution backend.
 
   
 
-7 Widget Menu (if ipywidgets is installed)
+**7 Widget Menu (if ipywidgets is installed)**
 
 Used to manage interactive widgets.
 
@@ -632,7 +632,7 @@ Used to manage interactive widgets.
 
   
 
-8 Help Menu
+**8 Help Menu**
 
 Provides documentation, shortcuts, and references.
 
