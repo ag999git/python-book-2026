@@ -1067,7 +1067,7 @@ Tip: If many outputs make notebook slow, Clear Output from Cell menu.
 
 •  You can Download as .ipynb (or export to HTML/PDF).
 
-#### 1.10 The New button in Jupyter’s Tree View.
+#### 1.10 Extra
 
 #### 1.11 FAQ Frequently Asked Beginner Questions
 
