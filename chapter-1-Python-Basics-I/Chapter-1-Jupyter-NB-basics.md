@@ -75,7 +75,7 @@ So the browser acts as a client UI.
 
 1.1.2 Behind-the-Scenes: How Code Execution Works
 
-•  Step-by-step internal process:
+•  Step-by-step internal process: 
 
 1.  You type Python code in a cell in your browser.
 
