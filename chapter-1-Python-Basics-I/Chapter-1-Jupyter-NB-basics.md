@@ -490,7 +490,24 @@ Screen shot of the UI of Screen 2 is given below (Note that the UI elements may 
 
 ![UI of Screen 2 of Jupyter Notebook]()
 
-### ABC
+
+In this screen, you get:
+
+  -  Menu bar
+
+  -  Code cells
+
+  -  Markdown cells
+
+  -  Output area
+
+  -  Kernel controls
+
+This is where you run code.
+
+
+
+
   
 
 1 Save (****💾 icon)
@@ -575,19 +592,6 @@ Very helpful for speeding up work.
 
 ### ABC
 
-In this screen, you get:
-
-  -  Menu bar
-
-  -  Code cells
-
-  -  Markdown cells
-
-  -  Output area
-
-  -  Kernel controls
-
-This is where you run code.
 
 
 
