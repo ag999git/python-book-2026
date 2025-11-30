@@ -508,8 +508,11 @@ This is where you run code.
   
 
   
-
-  
+#### Menu Bar
+Details of each button on the Menu bar are given below.
+Also given are the various options for each button on the menu bar, in form of a table.
+  - The first column of each table gives the options one gets when he clicks on that menu button. 
+  - The second column of each table shows the function/ role of each option.
 
 1 File Menu
 
