@@ -9,6 +9,7 @@
 - [1.8 You can think of Jupyter Notebook as having two main screens:](#18-you-can-think-of-jupyter-notebook-as-having-two-main-screens)
 - [1.9 UI](#19-ui)
 - [2 Some additional information](#2-some-additional-information)
+- [3 Advanced concepts](#3advanced-concepts)
 
  
 
@@ -1068,8 +1069,10 @@ Tip: If many outputs make notebook slow, Clear Output from Cell menu.
 •  You can Download as .ipynb (or export to HTML/PDF).
 
 #### 1.10 Extra
+[Back to the Table of Contents](#table-of-contents)
 
 #### 1.11 FAQ Frequently Asked Beginner Questions
+[Back to the Table of Contents](#table-of-contents)
 
 ##### 1.11.1 Do I need Anaconda to run Jupyter Notebook?
 
@@ -1192,6 +1195,8 @@ for i in range(1000000):
 | %%javascript | %%javascript | Runs JavaScript inside notebook | %%javascriptalert("Hi!") |
 
 ### 3 Advanced concepts
+
+[Back to the Table of Contents](#table-of-contents)
 
 #### 3.1 Flowchart
 
