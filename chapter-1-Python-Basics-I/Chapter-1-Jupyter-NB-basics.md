@@ -216,7 +216,7 @@ Leave it default:
 
   -  Click Next.
 
-IMPORTANT STEP: PATH Checkbox
+**IMPORTANT STEP: PATH Checkbox**
 
 You will see two checkboxes:
 
