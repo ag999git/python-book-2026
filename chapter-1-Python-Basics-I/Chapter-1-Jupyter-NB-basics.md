@@ -510,39 +510,39 @@ This is where you run code.
 
   
 
-1 Save (****💾 icon)
+1 Save (💾 icon)
 
 **What it does:** Saves the notebook (.ipynb file).  
 **Shortcut:** Ctrl + S  
 This ensures your latest code, outputs, and text are stored.
 
-2 Add New Cell (****➕ icon)
+2 Add New Cell (➕ icon)
 
 **What it does:** Inserts a **new empty cell below** the current cell.  
 Useful when adding more code or notes.
 
-3 Cut Cell (****✂️ icon)
+3 Cut Cell (✂️ icon)
 
 **What it does:** Removes the selected cell and stores it in clipboard.  
 You can paste it later.
 
-4 Copy Cell (****📄📄 icon)
+4 Copy Cell (📄📄 icon)
 
 **What it does:** Copies the selected cell to clipboard.
 
-5 Paste Cell (****📄 icon)
+5 Paste Cell (📄 icon)
 
 **What it does:** Pastes a previously cut/copied cell **below** the current cell.
 
-6 Move Cell Up (****⬆️ icon)
+6 Move Cell Up (⬆️ icon)
 
 **What it does:** Moves the selected cell **one position up**.
 
-7 Move Cell Down (****⬇️ icon)
+7 Move Cell Down (⬇️ icon)
 
 **What it does:** Moves the selected cell **one position down**.
 
-8 Run Cell (****▶️ Run)
+8 Run Cell (▶️ Run)
 
 **What it does:**
 
@@ -552,7 +552,7 @@ You can paste it later.
 
 **Shortcut:** Shift + Enter
 
-9 Stop Execution (****■ icon)
+9 Stop Execution (■ icon)
 
 **What it does:**  
 Interrupts/Stops the current running cell.  
@@ -564,7 +564,7 @@ Useful if your code is stuck in an **infinite loop**.
 Restarts the Python kernel → clears memory (all variables reset).  
 Notebook stays open, but all outputs become stale.
 
-11 Restart & Run All (****⏩ icon)
+11 Restart & Run All (⏩ icon)
 
 **What it does:**
 
@@ -582,7 +582,7 @@ You can switch it to:
 *   **Markdown** → Text, headings, notes
 *   **Raw** → Unprocessed text
 
-13 Keyboard Shortcuts (****⌨️ icon)
+13 Keyboard Shortcuts (⌨️ icon)
 
 Opens a list of **all shortcuts** in Jupyter Notebook.  
 Very helpful for speeding up work.
