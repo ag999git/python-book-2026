@@ -179,9 +179,9 @@ Anaconda is the easiest and recommended way for beginners to use Python and Jupy
 
   2.  Choose:
 
-  - Operating System: Windows
+   - Operating System: Windows
 
-  - Python Version: Choose `Python 3.x` (default is fine)
+   - Python Version: Choose `Python 3.x` (default is fine)
   3.  Click Download 64-bit Installer.
 
 A file called something like:
