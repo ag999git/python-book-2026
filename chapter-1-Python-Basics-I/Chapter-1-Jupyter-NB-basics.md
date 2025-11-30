@@ -745,7 +745,7 @@ Very helpful for speeding up work.
 
 
 
-### Relationship between the 2 screens of the Jupyter Notebook UI
+#### Relationship between the 2 screens of the Jupyter Notebook UI
 
 
 
@@ -764,13 +764,9 @@ You always begin at Screen 1, unless you directly launch a notebook from the com
 
 ```python
 Start Jupyter
-
 ↓
-
 Tree View (file browser)
-
 ↓ (open a file)
-
 Notebook Editor (where you code)
 ```
 
