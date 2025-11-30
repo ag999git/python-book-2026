@@ -713,7 +713,7 @@ You can paste it later.
 Interrupts/Stops the current running cell.  
 Useful if your code is stuck in an **infinite loop**.
 
-10 Restart Kernel (****🔄 icon)
+10 Restart Kernel (🔄 icon)
 
 **What it does:**  
 Restarts the Python kernel → clears memory (all variables reset).  
