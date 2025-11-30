@@ -8,6 +8,7 @@
 - [1.7 Some more details of the local server when you launch Jupyter](#17-some-more-details-of-the-local-server-when-you-launch-jupyter)
 - [1.8 You can think of Jupyter Notebook as having two main screens:](#18-you-can-think-of-jupyter-notebook-as-having-two-main-screens)
 - [1.9 UI](#19-ui)
+- [2 Some additional information](#2-some-additional-information)
 
  
 
