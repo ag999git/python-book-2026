@@ -428,7 +428,7 @@ If you open a notebook, URL changes, for example:
 
   -  `/terminals/1`
 
-  -  Tree = File Browser View
+  -  `tree` = File Browser View
 
 It refers to the directory tree — the list of folders and files on your computer, displayed in a hierarchical (tree-like) structure.
 
