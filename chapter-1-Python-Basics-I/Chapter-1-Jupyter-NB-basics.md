@@ -161,6 +161,7 @@ Even though everything is on your computer, this model gives benefits:
 
   -  Benefit 4: Language independence:- Kernel can be Python, R, Julia, etc., while browser stays the same.
 
+[Back to the Table of Contents](#table-of-contents)
 #### 1.2 PART 1: Installing Anaconda (which includes Jupyter Notebook)
 
 Anaconda is the easiest and recommended way for beginners to use Python and Jupyter Notebook.
