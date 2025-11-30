@@ -1200,7 +1200,7 @@ for i in range(1000000):
 
 #### 3.1 Flowchart
 
-XYZ
+![FlowChart](https://github.com/ag999git/python-book-2026/blob/main/all-book-images/Ch-1-Jupyter-NB-Flow-chart-from-browser-to-server.jpg)
 
 
 ##### 3.1.1 Explanation
