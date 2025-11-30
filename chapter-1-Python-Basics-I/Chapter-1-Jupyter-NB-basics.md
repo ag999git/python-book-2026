@@ -204,9 +204,7 @@ Click Next → Accept the license → Next.
 
 Choose:
 
-  -  Just Me (recommended)
-
-(Unless you know how admin installation works.)
+  -  Just Me (recommended. Unless you know how admin installation works.)
 
   -  Click Next.
 
