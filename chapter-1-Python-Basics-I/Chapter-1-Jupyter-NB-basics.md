@@ -139,7 +139,7 @@ Think of it like a control panel, not a server.
 
 2.  The server listens on a port on your machine
 
-Example: `localhost:8888`
+    - Example: `localhost:8888`
 
 3.  Your browser opens the interface
 
@@ -163,6 +163,8 @@ Even though everything is on your computer, this model gives benefits:
 
 [Back to the Table of Contents](#table-of-contents)
 #### 1.2 PART 1: Installing Anaconda (which includes Jupyter Notebook)
+
+[Back to the Table of Contents](#table-of-contents)
 
 Anaconda is the easiest and recommended way for beginners to use Python and Jupyter Notebook.
 
@@ -202,11 +204,11 @@ Click Next → Accept the license → Next.
 
 Choose:
 
-•  Just Me (recommended)
+  -  Just Me (recommended)
 
 (Unless you know how admin installation works.)
 
-Click Next.
+  -  Click Next.
 
 1.2.6 STEP 6 — Choose Install Location
 
@@ -214,13 +216,29 @@ Leave it default:
 
 `C:\Users\<yourname>\Anaconda3`
 
-Click Next.
+  -  Click Next.
 
 IMPORTANT STEP: PATH Checkbox
 
 You will see two checkboxes:
 
 ✔ Add Anaconda to my PATH environment variable (NOT recommended—leave unchecked)
+
+> [!NOTE]
+> Why is adding Anaconda to PATH not recommended?
+> When you add Anaconda to the PATH, you are telling Windows: “Use Anaconda’s Python everywhere in the system.”
+> It Overrides Your System Python.
+> Many computers already have:-
+> (a) Python installed by Windows Store.
+> (b) Python installed by Microsoft tools.
+> (c) Python installed manually.
+> (d) Python used by other programs.
+> If Anaconda is placed in PATH:-
+> (1) It becomes the default Python for your entire system.
+> (2) Other programs that expect the system Python may break.
+> (3) It becomes confusing which Python you are running
+
+✔ However if you do not have any previous version of Python installed on your system, then you may **Add Anaconda to my PATH environment variable**
 
 ✔ Register Anaconda as my default Python → Check this one
 
