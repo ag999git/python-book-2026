@@ -945,7 +945,7 @@ This is where you write and run code and see outputs.
 
 ###### 2 Menu Bar (top row)
 
-Typical menus:
+Typical menus (Already discussed earlier):
 
 •  `File` — New, Open, Make a copy, Rename, Save and Checkpoint, Download as (HTML, .py, .ipynb), Close and Halt
 
@@ -964,9 +964,7 @@ Typical menus:
 Tip: File → Save and Checkpoint creates a backup checkpoint. Browser autosaves periodically.
 
 ###### 3 Notebook Toolbar (icons under menu)
-
-XYZ
-
+Already discussed earlier
 
 Common buttons (left→right):
 
