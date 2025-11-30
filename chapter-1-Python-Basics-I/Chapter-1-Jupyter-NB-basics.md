@@ -505,7 +505,146 @@ In this screen, you get:
 
 This is where you run code.
 
+  
 
+  
+
+  
+
+1 File Menu
+
+Used for creating, saving, downloading, and managing notebooks.
+
+**Important options**
+
+| Option | What it Does |
+| --- | --- |
+| New Notebook | Creates a new .ipynb file with a selected kernel (Python 3 etc.). |
+| Open… | Opens files/folders from the Jupyter file browser. |
+| Make a Copy | Creates a duplicate of the current notebook. Useful for backups. |
+| Save / Save and Checkpoint | Saves your notebook manually (Jupyter also auto-saves). Checkpoints let you restore old versions. |
+| Rename | Renames your notebook file. |
+| Download as | Download notebook in various formats (HTML, PDF, Python script, Markdown). |
+| Close and Halt | Shut down the notebook kernel and close the file. |
+
+  
+
+  
+
+  
+
+2 Edit Menu
+
+Used for editing cells (cut/copy/paste) and managing cell content.
+
+**Important options**
+
+| Option | What it Does |
+| --- | --- |
+| Cut / Copy / Paste Cells | Manage entire cells, not lines of text. |
+| Delete Cells | Removes the selected cell. |
+| Undo Delete Cell | Restore deleted cells. |
+| Split Cell / Merge Cells | Break a cell into two or join multiple into one. |
+| Find and Replace | Search and replace text inside the notebook. |
+
+  
+
+  
+
+3 View Menu
+
+Controls visibility of interface elements.
+
+**Important options**
+
+| Option | What it Does |
+| --- | --- |
+| Toggle Toolbar | Shows/hides the row of icons under the menu bar. |
+| Toggle Header | Shows/hides the top title bar. |
+| Cell Toolbar | Enables special toolbars such as "Tags", "Slideshow", "Edit Metadata". |
+
+  
+
+  
+
+  
+
+4 Insert Menu
+
+Used to add new cells.
+
+| Option | What it Does |
+| --- | --- |
+| Insert Cell Above | Adds a new cell on top of the selected one. |
+| Insert Cell Below | Adds a new cell below the selected one. |
+
+  
+
+5 Cell Menu
+
+  
+
+Used to run and manage code/Markdown cells.
+
+**Important options**
+
+| Option | What it Does |
+| --- | --- |
+| Run Cells | Executes selected cell. |
+| Run Cells and Select Below | Runs current cell and moves cursor down. |
+| Run All / Run All Above / Run All Below | Executes multiple cells at once. |
+| Cell Type → Code / Markdown / Raw | Change the type of cell. |
+| Current Outputs → Clear | Deletes cell outputs. |
+| All Output → Clear | Clears outputs for entire notebook. |
+
+  
+
+6 Kernel Menu
+
+  
+
+Controls Python execution backend.
+
+**Important options**
+
+| Option | What it Does |
+| --- | --- |
+| Interrupt | Stops code that is currently running (like Ctrl+C). |
+| Restart | Restarts Python kernel → all variables cleared. |
+| Restart & Run All | Restarts kernel and runs all cells from the beginning. |
+| Change Kernel | Switch Python environments (e.g., Python 3.10 → Python 3.12). |
+
+#   
+
+  
+
+7 Widget Menu (if ipywidgets is installed)
+
+Used to manage interactive widgets.
+
+**Important options**
+
+| Option | What it Does |
+| --- | --- |
+| Save Notebook Widget State | Save the current state of widgets (like sliders, dropdowns). |
+| Clear Notebook Widget State | Clear previous widget state. |
+
+#   
+
+  
+
+8 Help Menu
+
+Provides documentation, shortcuts, and references.
+
+**Important options**
+
+| Option | What it Does |
+| --- | --- |
+| User Interface Tour | Shows a guided tour of the UI. |
+| Keyboard Shortcuts | Displays all Jupyter shortcuts (very useful). |
+| Markdown | Opens Markdown syntax guide. |
+| Python Reference | Links to Python documentation. |
 
 
   
