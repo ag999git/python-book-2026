@@ -490,6 +490,91 @@ Screen shot of the UI of Screen 2 is given below (Note that the UI elements may 
 
 ![UI of Screen 2 of Jupyter Notebook]()
 
+### ABC
+  
+
+1 Save (****💾 icon)
+
+**What it does:** Saves the notebook (.ipynb file).  
+**Shortcut:** Ctrl + S  
+This ensures your latest code, outputs, and text are stored.
+
+2 Add New Cell (****➕ icon)
+
+**What it does:** Inserts a **new empty cell below** the current cell.  
+Useful when adding more code or notes.
+
+3 Cut Cell (****✂️ icon)
+
+**What it does:** Removes the selected cell and stores it in clipboard.  
+You can paste it later.
+
+4 Copy Cell (****📄📄 icon)
+
+**What it does:** Copies the selected cell to clipboard.
+
+5 Paste Cell (****📄 icon)
+
+**What it does:** Pastes a previously cut/copied cell **below** the current cell.
+
+6 Move Cell Up (****⬆️ icon)
+
+**What it does:** Moves the selected cell **one position up**.
+
+7 Move Cell Down (****⬇️ icon)
+
+**What it does:** Moves the selected cell **one position down**.
+
+8 Run Cell (****▶️ Run)
+
+**What it does:**
+
+*   Executes the current cell
+*   Shows output directly below it
+*   Moves to the next cell
+
+**Shortcut:** Shift + Enter
+
+9 Stop Execution (****■ icon)
+
+**What it does:**  
+Interrupts/Stops the current running cell.  
+Useful if your code is stuck in an **infinite loop**.
+
+10 Restart Kernel (****🔄 icon)
+
+**What it does:**  
+Restarts the Python kernel → clears memory (all variables reset).  
+Notebook stays open, but all outputs become stale.
+
+11 Restart & Run All (****⏩ icon)
+
+**What it does:**
+
+1.  Restarts kernel
+2.  Runs **every cell in order from top to bottom**
+
+Useful for making sure your notebook runs cleanly from scratch.
+
+12 Cell Type Dropdown (Code / Markdown / Raw)
+
+Shows the type of the current cell.  
+You can switch it to:
+
+*   **Code** → Python code
+*   **Markdown** → Text, headings, notes
+*   **Raw** → Unprocessed text
+
+13 Keyboard Shortcuts (****⌨️ icon)
+
+Opens a list of **all shortcuts** in Jupyter Notebook.  
+Very helpful for speeding up work.
+
+
+
+
+### ABC
+
 In this screen, you get:
 
   -  Menu bar
