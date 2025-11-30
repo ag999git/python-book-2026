@@ -567,7 +567,7 @@ Example cell:
 ```java
 System.out.println("Hello from Java!");
 ```
-###### Python 3 (ipykernel)
+`Python 3 (ipykernel)`
 
   -  This is the default Python kernel that comes bundled with Jupyter.
 
@@ -575,7 +575,7 @@ System.out.println("Hello from Java!");
 
   -  This is the most common option for general use.
 
-###### Text File
+`Text File`
 
   -  Creates a new blank .txt file.
 
@@ -583,13 +583,13 @@ System.out.println("Hello from Java!");
 
   -  Useful for notes, config files, or documentation.
 
-###### Folder
+`Folder`
 
   -  Creates a new folder in the current directory.
 
   -  Helps you organize project files.
 
-###### Terminal
+`Terminal`
 
 -  Opens a Linux-like command-line terminal in your browser.
 
