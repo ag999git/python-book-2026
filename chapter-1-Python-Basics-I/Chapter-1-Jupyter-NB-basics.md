@@ -39,15 +39,15 @@ or click “Launch” in Anaconda Navigator:
 
 This server:
 
-•  Runs on your machine
+  -  Runs on your machine
 
-•  Manages files and notebooks
+  -  Manages files and notebooks
 
-•  Executes Python code
+  -  Executes Python code
 
-•  Provides web pages for the interface
+  -  Provides web pages for the interface
 
-•  Communicates with the browser using WebSockets
+  -  Communicates with the browser using WebSockets
 
 The server usually runs at:
 
@@ -55,7 +55,7 @@ The server usually runs at:
 
 localhost means:
 
-Your own computer is acting as a server.
+  - Your own computer is acting as a server.
 
 ###### 2. Client: Your Web Browser
 
