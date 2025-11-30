@@ -486,6 +486,10 @@ http://localhost:8888/notebooks/myfile.ipynb
 
 This is the actual interactive coding environment where you write Python code in cells.
 
+Screen shot of the UI of Screen 2 is given below (Note that the UI elements may vary from one system to anothet depending upon the installation/ version)
+
+![UI of Screen 2 of Jupyter Notebook]()
+
 In this screen, you get:
 
   -  Menu bar
@@ -499,6 +503,10 @@ In this screen, you get:
   -  Kernel controls
 
 This is where you run code.
+
+
+
+
 
 ##### 1.8.3 Relationship Between the Two Screens
 
