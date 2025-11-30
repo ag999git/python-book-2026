@@ -488,7 +488,7 @@ This is the actual interactive coding environment where you write Python code in
 
 Screen shot of the UI of Screen 2 is given below (Note that the UI elements may vary from one system to anothet depending upon the installation/ version)
 
-![UI of Screen 2 of Jupyter Notebook]()
+
 
 
 In this screen, you get:
@@ -552,8 +552,6 @@ Used for editing cells (cut/copy/paste) and managing cell content.
 
   
 
-  
-
 3 View Menu
 
 Controls visibility of interface elements.
@@ -568,10 +566,6 @@ Controls visibility of interface elements.
 
   
 
-  
-
-  
-
 4 Insert Menu
 
 Used to add new cells.
@@ -581,11 +575,9 @@ Used to add new cells.
 | Insert Cell Above | Adds a new cell on top of the selected one. |
 | Insert Cell Below | Adds a new cell below the selected one. |
 
-  
+ 
 
 5 Cell Menu
-
-  
 
 Used to run and manage code/Markdown cells.
 
@@ -617,8 +609,6 @@ Controls Python execution backend.
 | Restart & Run All | Restarts kernel and runs all cells from the beginning. |
 | Change Kernel | Switch Python environments (e.g., Python 3.10 → Python 3.12). |
 
-#   
-
   
 
 7 Widget Menu (if ipywidgets is installed)
@@ -632,7 +622,7 @@ Used to manage interactive widgets.
 | Save Notebook Widget State | Save the current state of widgets (like sliders, dropdowns). |
 | Clear Notebook Widget State | Clear previous widget state. |
 
-#   
+ 
 
   
 
@@ -650,7 +640,15 @@ Provides documentation, shortcuts, and references.
 | Python Reference | Links to Python documentation. |
 
 
-  
+
+
+#### Buttons/ Icons below the Menu Bar
+
+
+
+![UI of Screen 2 of Jupyter Notebook]()
+
+
 
 1 Save (💾 icon)
 
