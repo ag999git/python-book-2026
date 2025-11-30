@@ -318,6 +318,14 @@ jupyter notebook
 
 `python -m venv myenv`
 
+Note:- In above `myenv` is the name of your virtual environment.
+
+> [!TIP]
+> You can name your virtual environment anything you like.
+> However by convention, many a times it is named `.venv` . This is because in many operating systems (Like Linux and macOS) files and folders starting with a dot are conventionally hidden from default directory listings.
+> This is done to protect important system or configuration files.
+> However on Windows, a specific "hidden" attribute must be set.
+
 ##### 1.5.2 STEP 2 — Activate Environment
 
 Windows:
