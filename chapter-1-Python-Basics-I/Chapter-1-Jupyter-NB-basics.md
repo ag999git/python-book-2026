@@ -1090,9 +1090,7 @@ Yes. Files are saved as .ipynb.
 
 Yes — both are separate.
 
-#### 1.12 VVV
 
-#### 1.13 VVV
 
 ### 2 Some additional information
 
