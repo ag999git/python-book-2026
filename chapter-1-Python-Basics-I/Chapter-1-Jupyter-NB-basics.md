@@ -333,6 +333,8 @@ If it prints the message, your setup is perfect.
 
 #### 1.7 Some more details of the local server when you launch Jupyter
 
+[Back to the Table of Contents](#table-of-contents)
+
 When you start Jupyter Notebook, it automatically launches a local web server on your computer.
 
 The link you see —
@@ -433,6 +435,8 @@ This is why everything runs locally — no internet needed.
 
 #### 1.8 You can think of Jupyter Notebook as having two main screens:
 
+[Back to the Table of Contents](#table-of-contents)
+
 ##### 1.8.1 Screen 1: The Tree View (Home Page)
 
 URL: http://localhost:8888/tree
@@ -502,6 +506,8 @@ Notebook Editor (where you code)
 ```
 
 #### 1.9 UI
+
+[Back to the Table of Contents](#table-of-contents)
 
 1.9.1 Screen 1 — Tree View (the Jupyter home / file browser)
 
@@ -686,8 +692,8 @@ Tip: File → Save and Checkpoint creates a backup checkpoint. Browser autosaves
 
 ###### 3 Notebook Toolbar (icons under menu)
 
-
 XYZ
+
 
 Common buttons (left→right):
 
