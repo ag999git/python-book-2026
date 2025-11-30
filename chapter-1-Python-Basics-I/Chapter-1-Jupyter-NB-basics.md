@@ -536,7 +536,7 @@ Given below is the screen shot of Screen 1 with the “New” button clicked. It
 
 ##### 1.9.2 UI of screen 1
 
-XYZ
+![UI of 1st screen when you run Jupyter Server](https://github.com/ag999git/python-book-2026/blob/main/all-book-images/UI-Screen1-Jupyter-NB.jpg)
 
 
 `.venv`
