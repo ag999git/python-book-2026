@@ -1014,7 +1014,7 @@ Tip: If state is “Busy” and your code is stuck, click Interrupt or Restart.
 
 •  Move cell up/down
 
-6. Command Mode vs Edit Mode (keyboard behavior)
+###### 6 Command Mode vs Edit Mode (keyboard behavior)
 
 •  Edit mode (green border): typing inside a cell (press Enter to go into it).
 
