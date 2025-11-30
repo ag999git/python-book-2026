@@ -192,6 +192,23 @@ A file called something like:
 
 will start downloading.
 
+
+
+> [!IMPORTANT]
+> You should download Anaconda — not Miniconda by mistake. (Unless you specifically want to)
+> The miniconda installer looks something like:- `Miniconda3-latest-Windows-x86_64.exe`.
+> Dont install it because it is the minimal installer (no Jupyter, no packages, very small).
+> The Anaconda website is confusing because it advertises Miniconda first.
+> If you are unable to locate the link for Anaconda, you may use:- https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Windows-x86_64.exe.
+> This is the full Anaconda Distribution, NOT Miniconda.
+
+The Anaconda distribution contains:-
+✔ Contains Jupyter Notebook
+✔ Contains JupyterLab
+✔ Contains Spyder
+✔ Contains NumPy, Pandas, Matplotlib, etc.
+✔ Big installer (~800 MB)
+
 ##### 1.2.3 STEP 3 — Run the Installer
 
 ###### 1.  Locate the downloaded .exe file (usually in Downloads).
