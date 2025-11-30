@@ -539,6 +539,14 @@ Given below is the screen shot of Screen 1 with the “New” button clicked. It
 ![UI of 1st screen when you run Jupyter Server](https://github.com/ag999git/python-book-2026/blob/main/all-book-images/UI-Screen1-Jupyter-NB.jpg)
 
 
+The sreen shot shows the options available when one clicks the `New` Button. (The options may vary from one machine to another)
+1. `.venv` is a virtual environment
+2. `Java` is another kernel (of Java) installed
+3. `Python 3 (ipykernel)` is the default system Python Kernel.
+4. `Text File` creates a new blank `.txt` file.
+5. `Folder` creates a new folder in the current directory.
+6. `Terminal` opens a command-line terminal in your browser.
+
 `.venv`
 
   -  This is a virtual environment you created inside your project folder named .venv.
