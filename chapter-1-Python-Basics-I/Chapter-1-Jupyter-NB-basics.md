@@ -77,19 +77,19 @@ So the browser acts as a client UI.
 
 •  Step-by-step internal process: 
 
-1.  You type Python code in a cell in your browser.
+  1.  You type Python code in a cell in your browser.
 
-2.  Browser sends the cell code to the Jupyter server.
+  2.  Browser sends the cell code to the Jupyter server.
 
-3.  The server sends the code to a kernel (usually IPython).
+  3.  The server sends the code to a kernel (usually IPython).
 
-4.  The kernel executes the code.
+  4.  The kernel executes the code.
 
-5.  The result (text/plots/errors) is sent back to the server.
+  5.  The result (text/plots/errors) is sent back to the server.
 
-6.  The server sends the result to your browser.
+  6.  The server sends the result to your browser.
 
-7.  Browser displays the output in the notebook.
+  7.  Browser displays the output in the notebook.
 
 This process happens in milliseconds.
 
